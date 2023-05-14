@@ -1,0 +1,30 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 16px;
+    transition: all 0.25s;
+    position: relative;
+  }
+  
+  .hamburger span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background-color: #f5f5f5;
+  }
+  
+  .hamburger-middle {
+    transform: translateY(7px);
+  }
+  
+  .hamburger-bottom {
+    transform: translateY(14px);
+  }
