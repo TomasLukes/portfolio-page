@@ -3,7 +3,7 @@
 export default function Footer() {
   return (
     /* Footer */
-    <footer className="absolute bottom-0 w-full py-4 text-neutral-100 bg-neutral-900">
+    <footer className="w-full py-4 text-neutral-100 bg-neutral-900">
       {/* Footer container */}
       <div className="flex items-center justify-between px-12">
         {/* Copyright */}
