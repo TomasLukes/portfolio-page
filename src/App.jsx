@@ -7,7 +7,7 @@ import Footer from "./components/Footer"
 
 export default function App() {
   return (
-    <div id="app" className="bg-neutral-600 text-neutral-100">
+    <div id="app" className=" text-neutral-100">
       <Navbar />
       <Hero />
       <About />

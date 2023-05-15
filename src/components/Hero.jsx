@@ -4,16 +4,11 @@ export default function Hero() {
     /* Hero section */
     <section id="hero" className="">
       {/* Hero container */}
-      <div className="container mx-auto flex gap-8 py-16 px-8 ">
+      <div className="container mx-auto flex gap-8 px-8 ">
         {/* Left item */}
-        <div className="w-3/4">
+        <div className="w-1/2 relative">
           <h1 className="text-2xl font-bold">Tomáš Lukeš</h1>
           <h3 className="text-lg pb-4">Frontend React developer</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Quod adipisci totam ipsam nisi doloribus vel quis nostrum mollitia ad, 
-            dolor eligendi sequi illum esse fugit est quas reiciendis repellendus molestiae.
-          </p>
           {/* Social icons */}
           <div className="flex gap-2 py-4 md:gap-6">
             {/* Linkedin logo */}
@@ -27,14 +22,28 @@ export default function Hero() {
           </div>
         </div>
         {/* Right item */}
-        <div className="w-1/4">
+        <div className="w-1/2">
           {/* Profile photo */}
-          <img className="w-32 rounded-full"
-            src="./public/images/placeholder-profile-photo.png" alt="" 
+          <img className="mx-auto w-32 rounded-full"
+            src="/images/placeholder-profile-photo.png" alt="" 
           />
-        </div>
 
+          <div className="container blob-cont">
+            <div className="yellow blob"></div>
+            <div className="red blob"></div>
+            <div className="green blob"></div>
+          </div>
+
+
+        </div>
       </div>
+
+      <p className="container mx-auto w-4/5 md:w-4/5">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Quod adipisci totam ipsam nisi doloribus vel quis nostrum mollitia ad, 
+            dolor eligendi sequi illum esse fugit est quas reiciendis repellendus molestiae.
+      </p>
+
       {/* Skills container  */}
       <div className="container mx-auto flex flex-col gap-8 px-8 ">
         {/* Tech stack */}
@@ -53,6 +62,17 @@ export default function Hero() {
         </div>
       </div>
 
+      <svg>
+        <filter id='noiseFilter'>
+          <feTurbulence 
+            type='fractalNoise' 
+            baseFrequency='0.6' 
+            stitchTiles='stitch'/>
+          <feColorMatrix in="colorNoise" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
+              <feComposite operator="in" in2="SourceGraphic" result="monoNoise"/>
+              <feBlend in="SourceGraphic" in2="monoNoise" mode="screen" />
+        </filter>
+      </svg>
     </section>
   )
 }

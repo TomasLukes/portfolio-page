@@ -11,6 +11,6 @@ export default function About() {
           est commodi rem maxime corporis? Odit!
         </p>
       </div>
-    </section>
+    </section> 
   )
 }
