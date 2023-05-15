@@ -10,7 +10,12 @@ export default function Projects() {
         <h2 className="text-2xl md:text-3xl font-bold">
           Projects
         </h2>
-        <ProjectCardLg />
+        <ProjectCardLg 
+          name={'Triviathon'}
+          description={'Description 1'}
+          img={'triviathon-screenshot-desktop.png'}
+          url={'https://triviathon.tomaslukes.com/'}
+        />
         <h3 className="text-lg md:text-lg font-semibold">
           Scrimba solo projects
         </h3>
