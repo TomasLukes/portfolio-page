@@ -42,7 +42,7 @@ export default function Navbar() {
       {/* Mobile menu */}
       <div className="md:hidden text-neutral-900">
         <div id="menu" className={`${!mobileMenuOpen && 'hidden'} absolute flex flex-col gap-4 items-center self-end py-8 mt-10 font-bold rounded-sm
-         bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
+         bg-neutral-50 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
           <a href="#" className="hover:text-yellow-500">Domů</a>
             <span className="w-4/5 mx-auto border border-solid border-b-1 border-gray-200"></span>
           <a href="#" className="hover:text-yellow-500">O mně</a>            

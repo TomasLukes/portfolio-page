@@ -4,7 +4,7 @@ export default function About() {
     /* About section */
     <section id="about" className="">
       {/* About container */}
-      <div className="container mx-auto py-16 ">
+      <div className="container mx-auto py-16 px-8">
         <h2>O mně</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores perferendis pariatur 
           itaque praesentium dolores fugit corrupti soluta tempore voluptatum perspiciatis neque enim repellendus, 
