@@ -15,14 +15,17 @@ export default function Navbar() {
       <div className="flex items-center justify-between px-12 ">
         {/* Logo img */}
         <div>
-          <h1 className="text-2xl font-semibold">Tomas Lukes</h1>
+          <h1 className="text-xl font-semibold
+            md:text-2xl">
+            {`<TomášLukeš/>`}
+          </h1>
         </div>
         {/* Menu items - desktop */}
-        <div className="hidden md:flex space-x-12">
-          <a href="#" className="hover:text-yellow-500">Domů</a>
-          <a href="#" className="hover:text-yellow-500">O mně</a>
-          <a href="#" className="hover:text-yellow-500">Projekty</a>
-          <a href="#" className="hover:yellow-red-500">Kontakt</a>
+        <div className="hidden md:flex space-x-12 font-semibold ">
+          <a href="#" className="hover:text-yellow-500 drop-shadow-md">Domů</a>
+          <a href="#" className="hover:text-yellow-500 drop-shadow-md">O mně</a>
+          <a href="#" className="hover:text-yellow-500 drop-shadow-md">Projekty</a>
+          <a href="#" className="hover:text-yellow-500 drop-shadow-md">Kontakty</a>        
         </div>
 
         {/* Hamburger icon */}
@@ -46,7 +49,7 @@ export default function Navbar() {
             <span className="w-4/5 mx-auto border border-solid border-b-1 border-gray-200"></span>
           <a href="#" className="hover:text-yellow-500">Projekty</a>
             <span className="w-4/5 mx-auto border border-solid border-b-1 border-gray-200"></span>
-          <a href="#" className="hover:text-yellow-500">Kontakt</a>
+          <a href="#" className="hover:text-yellow-500">Kontakty</a>
         </div>
       </div>
     </nav>
