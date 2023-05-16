@@ -10,9 +10,9 @@ export default function Navbar() {
 
   return (
     /* Navbar */
-    <nav className="w-full pt-8 pb-4 text-neutral-900 drop-shadow-sm">
+    <nav className="w-full pt-8 pb-4 text-neutral-900 text-xl font-medium ">
       {/* Navbar container */}
-      <div className="flex items-center justify-between px-12 ">
+      <div className="flex items-center justify-between px-8 md:px-32 ">
         {/* Logo img */}
         <div>
           <h1 className="text-xl font-semibold
