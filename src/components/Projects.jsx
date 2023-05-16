@@ -6,8 +6,8 @@ export default function Projects() {
     /* Projects */
     <section id="projects" >
       {/* Projects container */}
-      <div className="container mx-auto py-16 px-8 ">
-        <h2 className="text-2xl md:text-3xl font-bold">
+      <div className="container mx-auto py-12 px-8 ">
+        <h2 className="text-2xl md:text-4xl font-bold pb-4">
           Projects
         </h2>
         <ProjectCardLg 
@@ -16,7 +16,7 @@ export default function Projects() {
           img={'triviathon-screenshot-desktop.png'}
           url={'https://triviathon.tomaslukes.com/'}
         />
-        <h3 className="text-lg md:text-lg font-semibold">
+        <h3 className="text-xl md:text-2xl font-semibold pb-4">
           Scrimba solo projects
         </h3>
         {/* Scrimba projects cards container */}
