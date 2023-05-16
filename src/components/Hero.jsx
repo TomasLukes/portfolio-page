@@ -1,3 +1,4 @@
+import IconsFramed from "./IconsFramed"
 
 export default function Hero() {
   return (
@@ -62,12 +63,11 @@ export default function Hero() {
         {/* Tooling */}
         <div className="w-full">
             <h3 className="text-xl font-medium pb-2">Tooling</h3>
-            <div className="flex gap-2 items-center justify-center">
-              <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a>
-              <a href="https://vitejs.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg" width="36" height="36" alt="Vite" /></a>
-              <a href="https://reactrouter.com/" target="_blank" rel="noreferrer">
-              <img src="https://reactrouter.com/_brand/react-router-mark-color.svg" width="36" height="36" alt="React Router v6" /></a>
-              <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
+            <div className="flex gap-2">
+            <IconsFramed techName={'HTML'} img={'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg'} />
+            <IconsFramed techName={'CSS'} />
+            <IconsFramed techName={'JS'} />
+            <IconsFramed techName={'React'} />
             </div>
         </div>
       </div>
