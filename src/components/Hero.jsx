@@ -3,9 +3,9 @@ import TechStack from "./TechStack"
 export default function Hero() {
   return (
     /* Hero section */
-    <section id="hero" className="grid place-content-center px-8 py-12">
+    <section id="hero" className="grid place-content-center px-8 ">
       {/* Hero container */}
-      <div className="container flex gap-2 mx-auto md:gap-8">
+      <div className="container flex gap-4 mx-auto md:gap-8">
         {/* Left item */}
         <div className="w-1/2 relative">
           <h1 className="text-3xl md:text-6xl font-bold whitespace-nowrap md:whitespace-normal pb-1 md:pb-2">
@@ -58,7 +58,7 @@ export default function Hero() {
       </p>
 
       {/* Skills container  */}
-      <div className="container mx-auto flex flex-col gap-8 py-12 ">
+      <div className="container mx-auto pt-12">
         {/* Tech stack */}
         <TechStack />
       </div>

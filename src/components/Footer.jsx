@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
     /* Footer */
-    <footer className="w-full text-neutral-100 bg-neutral-900">
+    <footer className="w-full text-neutral-100 bg-neutral-900 px-8">
       {/* Footer container */}
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between py-4">
         {/* Copyright */}
         <p className="text-xs md:text-sm">
           Created by <span className="font-semibold">Tomáš Lukeš</span> 2023

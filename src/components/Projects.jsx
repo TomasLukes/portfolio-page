@@ -4,21 +4,31 @@ import ProjectCardSm from "./ProjectCardSm"
 export default function Projects() {
   return (
     /* Projects */
-    <section id="projects" >
+    <section id="projects" className="pt-12 px-8">
       {/* Projects container */}
-      <div className="container mx-auto py-12">
-        <h2 className="text-2xl md:text-4xl font-bold pb-4">
+      <div className="container mx-auto">
+        <h2 className="text-2xl md:text-4xl font-bold pb-3">
           Projects
         </h2>
+        <p className="md-4/5 md:w-4/5 text-justify pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores perferendis pariatur 
+          itaque praesentium dolores fugit corrupti soluta tempore voluptatum perspiciatis neque enim repellendus, 
+          est commodi rem maxime corporis? Odit!
+        </p>
+
         <ProjectCardLg 
           name={'Triviathon'}
           description={'Description 1'}
           img={'triviathon-screenshot-desktop.png'}
           url={'https://triviathon.tomaslukes.com/'}
         />
-        <h3 className="text-xl md:text-2xl font-semibold pb-4">
+
+        <h3 className="text-xl md:text-2xl font-semibold pt-6 pb-3">
           Scrimba solo projects
         </h3>
+        <p className="md-4/5 md:w-4/5 text-justify pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores perferendis pariatur 
+          itaque praesentium dolores fugit corrupti soluta tempore voluptatum perspiciatis neque enim repellendus, 
+          est commodi rem maxime corporis? Odit!
+        </p>
         {/* Scrimba projects cards container */}
         <div className="flex flex-col gap-6
           md:flex-row">
