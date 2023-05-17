@@ -4,7 +4,7 @@ export default function TechStack() {
     /* TechStack container */
     <div className="w-full">
       {/* TechStack heading */}
-      <h3 className="text-xl md:text-2xl font-medium pb-3">Techstack</h3>
+      <h3 className="text-xl md:text-2xl font-medium pb-3 md:pb-6">Techstack</h3>
       {/* Icons container */}
       <div className="flex flex-wrap gap-4">
 

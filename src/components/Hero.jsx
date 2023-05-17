@@ -3,7 +3,7 @@ import TechStack from "./TechStack"
 export default function Hero() {
   return (
     /* Hero section */
-    <section id="hero" className="grid place-content-center px-8 ">
+    <section id="hero" className="grid place-content-center px-8">
       {/* Hero container */}
       <div className="container flex gap-4 mx-auto md:gap-8">
         {/* Left item */}
@@ -15,7 +15,7 @@ export default function Hero() {
             Frontend React developer
           </h3>
           {/* Info paragraph desktop */}
-          <p className="hidden md:block w-4/5 text-lg text-justify pb-9">
+          <p className="hidden md:block w-4/5 text-lg text-justify pb-6">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
             Quod adipisci totam ipsam nisi doloribus vel quis nostrum mollitia ad, 
             dolor eligendi sequi illum esse fugit est quas reiciendis repellendus molestiae.
@@ -58,7 +58,7 @@ export default function Hero() {
       </p>
 
       {/* Skills container  */}
-      <div className="container mx-auto pt-12">
+      <div className="container mx-auto pt-12 md:pt-24 md:w-4/5 md:ml-0">
         {/* Tech stack */}
         <TechStack />
       </div>

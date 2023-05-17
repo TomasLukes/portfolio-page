@@ -4,13 +4,13 @@ import ProjectCardSm from "./ProjectCardSm"
 export default function Projects() {
   return (
     /* Projects */
-    <section id="projects" className="pt-12 px-8">
+    <section id="projects" className="pt-12 md:pt-24 px-8">
       {/* Projects container */}
       <div className="container mx-auto">
-        <h2 className="text-2xl md:text-4xl font-bold pb-3">
+        <h2 className="text-2xl md:text-4xl font-bold pb-3 md:pb-6">
           Projects
         </h2>
-        <p className="md-4/5 md:w-4/5 text-justify pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores perferendis pariatur 
+        <p className="md:w-3/5 text-justify pb-6 md:pb-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores perferendis pariatur 
           itaque praesentium dolores fugit corrupti soluta tempore voluptatum perspiciatis neque enim repellendus, 
           est commodi rem maxime corporis? Odit!
         </p>
@@ -22,15 +22,15 @@ export default function Projects() {
           url={'https://triviathon.tomaslukes.com/'}
         />
 
-        <h3 className="text-xl md:text-2xl font-semibold pt-6 pb-3">
+        <h3 className="text-xl md:text-2xl font-semibold pt-6 md:pt-12 pb-3 md:pb-6">
           Scrimba solo projects
         </h3>
-        <p className="md-4/5 md:w-4/5 text-justify pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores perferendis pariatur 
+        <p className="md:w-3/5 text-justify pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores perferendis pariatur 
           itaque praesentium dolores fugit corrupti soluta tempore voluptatum perspiciatis neque enim repellendus, 
           est commodi rem maxime corporis? Odit!
         </p>
         {/* Scrimba projects cards container */}
-        <div className="flex flex-col gap-6
+        <div className="flex flex-col gap-6 md:gap-8
           md:flex-row">
           {/* Scrimba project cards */}
           <ProjectCardSm 

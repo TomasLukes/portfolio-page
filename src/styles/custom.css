@@ -1,9 +1,7 @@
 body {
   position: relative;
   font-family: 'Recoleta', sans-serif;
-  margin: 0;
   min-height: 100vh;
-  min-width: 100vw;
   background-color: var(--bg);
 }
 
