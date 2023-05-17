@@ -1,15 +1,19 @@
 body {
-    position: relative;
-    font-family: 'Recoleta', sans-serif;
-    margin: 0;
-    min-height: 100vh;
-    min-width: 100vw;
-    background-color: var(--bg);
+  position: relative;
+  font-family: 'Recoleta', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: var(--bg);
 }
 
-section {
-  max-width: 1250px;
+section, nav {
+  max-width: 1300px;
   margin: 0 auto;
+}
+
+#hero {
+  min-height: calc(100vh - 72px);
 }
 
 .hamburger {
@@ -68,7 +72,7 @@ section {
   .blob-cont {
     position: relative;
     top: -450px;
-    right: 75px;
+    right: 0px;
     z-index: -2;
   }
    

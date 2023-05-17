@@ -3,7 +3,7 @@ export default function Contacts() {
     /* Contacts */
     <section id="contacts" >
       {/* Contacts container */}
-      <div className="container mx-auto py-16 px-8">
+      <div className="container mx-auto py-16">
       <h2 className="text-2xl md:text-4xl text-center font-bold pb-4">Kontakt</h2>
         <form action="" className="grid grid-cols-1 gap-2 md:w-3/5 mx-auto">
           {/* Inputs group */}

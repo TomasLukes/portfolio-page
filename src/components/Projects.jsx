@@ -6,7 +6,7 @@ export default function Projects() {
     /* Projects */
     <section id="projects" >
       {/* Projects container */}
-      <div className="container mx-auto py-12 px-8 ">
+      <div className="container mx-auto py-12">
         <h2 className="text-2xl md:text-4xl font-bold pb-4">
           Projects
         </h2>
