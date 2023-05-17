@@ -20,10 +20,10 @@ export default function Navbar() {
           </h1>
         </div>
         {/* Menu items - desktop */}
-        <div className="hidden md:flex space-x-12 font-semibold ">
-          <a href="#" className="hover:text-yellow-500 drop-shadow-md">O mně</a>
-          <a href="#" className="hover:text-yellow-500 drop-shadow-md">Projekty</a>
-          <a href="#" className="hover:text-yellow-500 drop-shadow-md">Kontakty</a>        
+        <div className="hidden md:flex space-x-16 text-xl font-semibold ">
+          <a href="#" className="hover:text-yellow-500 drop-shadow-sm">O mně</a>
+          <a href="#" className="hover:text-yellow-500 drop-shadow-sm">Projekty</a>
+          <a href="#" className="hover:text-yellow-500 drop-shadow-sm">Kontakty</a>        
         </div>
 
         {/* Hamburger icon */}
