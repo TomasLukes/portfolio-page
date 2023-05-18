@@ -1299,6 +1299,11 @@ body::before {
 }
 
 @media only screen and (max-width: 768px) {
+  body::before,
+    body::after {
+    opacity: 30%;
+  }
+
   .blob-cont {
     top: -150px;
     right: 50px;
@@ -1428,6 +1433,11 @@ body::before {
 .hover\:bg-gray-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
+.hover\:text-neutral-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(64 64 64 / var(--tw-text-opacity));
 }
 
 .hover\:text-yellow-500:hover {

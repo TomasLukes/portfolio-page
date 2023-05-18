@@ -22,9 +22,9 @@ export default function Navbar() {
         
         {/* Menu items - desktop */}
         <div className="hidden md:flex space-x-16 text-lg">
-          <a href="#" className="hover:text-yellow-500 drop-shadow-sm">O mně</a>
-          <a href="#" className="hover:text-yellow-500 drop-shadow-sm">Projekty</a>
-          <a href="#" className="hover:text-yellow-500 drop-shadow-sm">Kontakty</a>        
+          <a href="#about" className="hover:text-neutral-700 drop-shadow-sm">O mně</a>
+          <a href="#projects" className="hover:text-neutral-700 drop-shadow-sm">Projekty</a>
+          <a href="#contacts" className="hover:text-neutral-700 drop-shadow-sm">Kontakty</a>        
         </div>
 
         {/* Hamburger icon */}
@@ -42,11 +42,11 @@ export default function Navbar() {
       <div className="md:hidden">
         <div id="menu" className={`${!mobileMenuOpen && 'hidden'} absolute flex flex-col gap-4 items-center self-end py-8 mt-10 font-bold rounded-sm
          bg-neutral-200 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
-          <a href="#" className="hover:text-yellow-500">O mně</a>            
+          <a href="#about" className="hover:text-yellow-500">O mně</a>            
             <span className="w-4/5 mx-auto border border-solid border-b-1 border-gray-400"></span>
-          <a href="#" className="hover:text-yellow-500">Projekty</a>
+          <a href="#projects" className="hover:text-yellow-500">Projekty</a>
             <span className="w-4/5 mx-auto border border-solid border-b-1 border-gray-400"></span>
-          <a href="#" className="hover:text-yellow-500">Kontakty</a>
+          <a href="#contacts" className="hover:text-yellow-500">Kontakty</a>
         </div>
       </div>
     </nav>

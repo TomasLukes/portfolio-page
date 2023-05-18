@@ -132,6 +132,11 @@ section, nav {
   }
 
   @media only screen and (max-width: 768px) {
+    body::before,
+    body::after {
+      opacity: 30%;
+    }
+
     .blob-cont {
       top: -150px;
       right: 50px;
