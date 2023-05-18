@@ -15,12 +15,23 @@ export default function Projects() {
           est commodi rem maxime corporis? Odit!
         </p>
 
-        <ProjectCardLg 
-          name={'Triviathon'}
-          description={'Description 1'}
-          img={'triviathon-screenshot-desktop.png'}
-          url={'https://triviathon.tomaslukes.com/'}
-        />
+        <div className="flex flex-col gap-8">
+          <ProjectCardLg 
+            name={'Triviathon'}
+            description={'Trivia quiz application that fetches questions from the Open Trivia Database and allows users to test their knowledge across various categories. Created with React, Vite, Tailwind CSS for styling, and Material UI components for form.'}
+            img={'moviesearch-screenshot-desktop.png'}
+            url={'https://triviathon.tomaslukes.com/'}
+            ghUrl={'https://github.com/TomasLukes/scrimba-solo-projects/tree/main/03_triviathon'}
+          />
+
+          <ProjectCardLg 
+            name={'Triviathon'}
+            description={'Trivia quiz application that fetches questions from the Open Trivia Database and allows users to test their knowledge across various categories. Created with React, Vite, Tailwind CSS for styling, and Material UI components for form.'}
+            img={'triviathon-screenshot-desktop.png'}
+            url={'https://triviathon.tomaslukes.com/'}
+            ghUrl={'https://github.com/TomasLukes/scrimba-solo-projects/tree/main/03_triviathon'}
+          />
+        </div>
 
         <h3 className="text-xl md:text-2xl font-semibold pt-6 md:pt-12 pb-3 md:pb-6">
           Scrimba solo projects
