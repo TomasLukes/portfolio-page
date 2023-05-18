@@ -35,21 +35,24 @@ export default function Projects() {
           {/* Scrimba project cards */}
           <ProjectCardSm 
             name={'Triviathon'}
-            description={'Description 1'}
+            description={'Trivia quiz application that fetches questions from the Open Trivia Database and allows users to test their knowledge across various categories. Created with React, Vite, Tailwind CSS for styling, and Material UI components for form.'}
             img={'triviathon-screenshot-desktop.png'}
             url={'https://triviathon.tomaslukes.com/'}
+            ghUrl={'https://github.com/TomasLukes/scrimba-solo-projects/tree/main/03_triviathon'}
           />
           <ProjectCardSm 
             name={'Movie Search'} 
-            description={'Description 1'}
+            description={'Movie search application utilizing the OMDB API to search movie informations. Built with vanilla CSS and JavaScript. Users can add or remove movies to a watchlist, which is stored in localStorage.'}
             img={'moviesearch-screenshot-desktop.png'}
             url={'https://moviesearch.tomaslukes.com/'}
+            ghUrl={'https://github.com/TomasLukes/scrimba-solo-projects/tree/main/04_movie-search'}
           />
           <ProjectCardSm 
             name={'Tenzies'} 
-            description={'Description 1'}
+            description={'Dice game application where players compete to achieve the highest score by strategically rolling and holding dice. Developed using React, Vite, and Sass for styling. Users time is tracked, and they can compete against their personal best record.'}
             img={'tenzies-screenshot-desktop.png'}
             url={'https://tenzies.tomaslukes.com/'}
+            ghUrl={'https://github.com/TomasLukes/scrimba-solo-projects/tree/main/02_tenzies'}
           />
         </div>
       </div>

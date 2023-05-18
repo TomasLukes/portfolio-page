@@ -1,8 +1,8 @@
-export default function ProjectCardLg({ name, description, img, url }) {
+export default function ProjectCardLg({ name, description, img, url, ghUrl }) {
   return (
     <a href={`${url}`}
       className="flex flex-col items-center bg-neutral-900 border border-gray-700 rounded-lg shadow 
-      md:flex-row md:max-w-xl hover:bg-gray-700"
+      md:flex-row md:w-3/5 hover:bg-neutral-800"
     >
       <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" 
         src={`/assets/images/projects-screenshots/${img}`} alt="">

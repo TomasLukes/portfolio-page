@@ -127,7 +127,7 @@ export default function TechStack() {
         <div className="w-32 md:w-40 px-5 py-2 rounded-3xl border border-1 border-neutral-700">
           <div className="mx-auto flex items-center gap-2 ">
             {/* Vite svg */}
-            <img className="h-8 w-8" src="src/assets/images/icons/tech/vite-colored.svg" alt="" />
+            <img className="h-8 w-8" src="/assets/images/icons/tech/vite-colored.svg" alt="" />
             {/* Vite label */}
             <label className="text-md justify-self-end text-center font-medium ">
             Vite
