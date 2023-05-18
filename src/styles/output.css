@@ -1029,8 +1029,8 @@ video {
   font-family: 'Recoleta';
 
   src: local('Recoleta Medium'), local('Recoleta-Medium'),
-        url('/fonts/Recoleta-Medium.woff2') format('woff2'),
-        url('/fonts/Recoleta-Medium.woff') format('woff');
+        url('/assets/fonts/Recoleta-Medium.woff2') format('woff2'),
+        url('/assets/fonts/Recoleta-Medium.woff') format('woff');
 
   font-weight: 500;
 
@@ -1041,8 +1041,8 @@ video {
   font-family: 'Recoleta';
 
   src: local('Recoleta Thin'), local('Recoleta-Thin'),
-        url('/fonts/Recoleta-Thin.woff2') format('woff2'),
-        url('/fonts/Recoleta-Thin.woff') format('woff');
+        url('/assets/fonts/Recoleta-Thin.woff2') format('woff2'),
+        url('/assets/fonts/Recoleta-Thin.woff') format('woff');
 
   font-weight: 100;
 
@@ -1053,8 +1053,8 @@ video {
   font-family: 'Recoleta';
 
   src: local('Recoleta SemiBold'), local('Recoleta-SemiBold'),
-        url('/fonts/Recoleta-SemiBold.woff2') format('woff2'),
-        url('/fonts/Recoleta-SemiBold.woff') format('woff');
+        url('/assets/fonts/Recoleta-SemiBold.woff2') format('woff2'),
+        url('/assets/fonts/Recoleta-SemiBold.woff') format('woff');
 
   font-weight: 600;
 
@@ -1065,8 +1065,8 @@ video {
   font-family: 'Recoleta';
 
   src: local('Recoleta Regular'), local('Recoleta-Regular'),
-        url('/fonts/Recoleta-Regular.woff2') format('woff2'),
-        url('/fonts/Recoleta-Regular.woff') format('woff');
+        url('/assets/fonts/Recoleta-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Recoleta-Regular.woff') format('woff');
 
   font-weight: normal;
 
@@ -1077,8 +1077,8 @@ video {
   font-family: 'Recoleta';
 
   src: local('Recoleta Bold'), local('Recoleta-Bold'),
-        url('/fonts/Recoleta-Bold.woff2') format('woff2'),
-        url('/fonts/Recoleta-Bold.woff') format('woff');
+        url('/assets/fonts/Recoleta-Bold.woff2') format('woff2'),
+        url('/assets/fonts/Recoleta-Bold.woff') format('woff');
 
   font-weight: bold;
 
@@ -1089,8 +1089,8 @@ video {
   font-family: 'Recoleta';
 
   src: local('Recoleta Black'), local('Recoleta-Black'),
-        url('/fonts/Recoleta-Black.woff2') format('woff2'),
-        url('/fonts/Recoleta-Black.woff') format('woff');
+        url('/assets/fonts/Recoleta-Black.woff2') format('woff2'),
+        url('/assets/fonts/Recoleta-Black.woff') format('woff');
 
   font-weight: 900;
 
@@ -1101,8 +1101,8 @@ video {
   font-family: 'Recoleta';
 
   src: local('Recoleta Light'), local('Recoleta-Light'),
-        url('/fonts/Recoleta-Light.woff2') format('woff2'),
-        url('/fonts/Recoleta-Light.woff') format('woff');
+        url('/assets/fonts/Recoleta-Light.woff2') format('woff2'),
+        url('/assets/fonts/Recoleta-Light.woff') format('woff');
 
   font-weight: 300;
 
@@ -1301,7 +1301,7 @@ body::before {
 @media only screen and (max-width: 768px) {
   body::before,
     body::after {
-    opacity: 30%;
+    opacity: 35%;
   }
 
   .blob-cont {

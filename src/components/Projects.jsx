@@ -36,7 +36,7 @@ export default function Projects() {
           <ProjectCardSm 
             name={'Triviathon'}
             description={'Description 1'}
-            img={'triviathon-screenshot-desktop.PNG'}
+            img={'triviathon-screenshot-desktop.png'}
             url={'https://triviathon.tomaslukes.com/'}
           />
           <ProjectCardSm 

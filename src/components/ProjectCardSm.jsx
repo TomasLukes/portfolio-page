@@ -4,7 +4,7 @@ export default function ProjectCardSm({ name, description, img, url }) {
     <div className="max-w-sm bg-neutral-900 border border-gray-700 rounded-lg shadow ">
       <a href={`${url}`}>
           <img className="rounded-t-lg"
-            src={`./src/assets/images/projects-screenshots/${img}`} alt="" 
+            src={`/assets/images/projects-screenshots/${img}`} alt="" 
           />
       </a>
       <div className="p-5">

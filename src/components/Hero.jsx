@@ -40,7 +40,7 @@ export default function Hero() {
         <div className="w-1/2">
           {/* Profile photo */}
           <img className="w-32 md:w-80 rounded-full object-cover ml-auto md:mr-4 "
-            src="/images/profile-photo.jpg" alt="" 
+            src="/assets/images/profile-photo.jpg" alt="" 
           />
           {/* Blob animation */}
           <div className="container blob-cont">
