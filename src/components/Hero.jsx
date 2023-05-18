@@ -67,7 +67,7 @@ export default function Hero() {
         <filter id='noiseFilter'>
           <feTurbulence 
             type='fractalNoise' 
-            baseFrequency='0.6' 
+            baseFrequency='0.7' 
             stitchTiles='stitch'/>
           <feColorMatrix in="colorNoise" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
               <feComposite operator="in" in2="SourceGraphic" result="monoNoise"/>
