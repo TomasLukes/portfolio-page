@@ -2,7 +2,7 @@
 export default function ProjectCardSm({ name, description, img, url, ghUrl }) {
   return (
     /* ProjectCard small container */
-    <article className="flex flex-col max-w-sm bg-neutral-900 border border-gray-700 rounded-lg shadow-md">
+    <article className="flex flex-col max-w-sm bg-neutral-800 border border-gray-700 rounded-lg shadow-md">
       {/* Screenshot image */}
       <a href={`${url}`}>
         <img className="rounded-t-lg"
