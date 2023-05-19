@@ -30,7 +30,7 @@ export default function Contacts() {
             </textarea>
           </div>
           {/* Submit button */}
-          <button className="mt-4 md:mt-6 m px-6 py-3 bg-neutral-800 text-neutral-100 rounded-lg">
+          <button className="mt-4 md:mt-6 m px-6 py-3 bg-neutral-900 text-neutral-100 rounded-lg">
             Odeslat
           </button>
         </form>
