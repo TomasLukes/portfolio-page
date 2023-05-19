@@ -40,13 +40,13 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div className="md:hidden">
-        <div id="menu" className={`${!mobileMenuOpen && 'hidden'} absolute flex flex-col gap-4 items-center self-end py-8 mt-10 font-bold rounded-sm
+        <div id="menu" className={`${!mobileMenuOpen && 'hidden'} absolute flex flex-col gap-4 items-center self-end py-8 font-bold rounded-sm
          bg-neutral-200 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
-          <a href="#about" className="hover:text-yellow-500">O mně</a>            
-            <span className="w-4/5 mx-auto border border-solid border-b-1 border-gray-400"></span>
-          <a href="#projects" className="hover:text-yellow-500">Projekty</a>
-            <span className="w-4/5 mx-auto border border-solid border-b-1 border-gray-400"></span>
-          <a href="#contacts" className="hover:text-yellow-500">Kontakty</a>
+          <a href="#about" className="hover:text-neutral-700">O mně</a>            
+            <span className="w-4/5 mx-auto border border-solid border-b-1 border-gray-300 drop-shadow-sm"></span>
+          <a href="#projects" className="hover:text-neutral-700">Projekty</a>
+            <span className="w-4/5 mx-auto border border-solid border-b-1 border-gray-300 drop-shadow-sm"></span>
+          <a href="#contacts" className="hover:text-neutral-700">Kontakty</a>
         </div>
       </div>
     </nav>
