@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Hero container */}
       <div className="container flex gap-4 mx-auto md:gap-8">
         {/* Left item */}
-        <div className="w-1/2 relative">
+        <div className="w-1/2">
           <h1 className="text-3xl md:text-6xl font-bold whitespace-nowrap md:whitespace-normal pb-1 md:pb-2">
             Tomáš Lukeš
           </h1>
