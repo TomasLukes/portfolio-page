@@ -799,6 +799,14 @@ video {
   fill: #262626;
 }
 
+.fill-neutral-300 {
+  fill: #d4d4d4;
+}
+
+.fill-neutral-100 {
+  fill: #f5f5f5;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1402,9 +1410,44 @@ body::before {
   color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:border-2:hover {
+  border-width: 2px;
+}
+
+.hover\:border-solid:hover {
+  border-style: solid;
+}
+
 .hover\:border-yellow-500:hover {
   --tw-border-opacity: 1;
   border-color: rgb(234 179 8 / var(--tw-border-opacity));
+}
+
+.hover\:border-red-500:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
+.hover\:fill-yellow-500:hover {
+  fill: #eab308;
+}
+
+.hover\:fill-neutral-100:hover {
+  fill: #f5f5f5;
+}
+
+.hover\:fill-neutral-300:hover {
+  fill: #d4d4d4;
+}
+
+.hover\:fill-neutral-200:hover {
+  fill: #e5e5e5;
 }
 
 .hover\:text-neutral-700:hover {
@@ -1490,6 +1533,10 @@ body::before {
 
   .md\:w-80 {
     width: 20rem;
+  }
+
+  .md\:w-7 {
+    width: 1.75rem;
   }
 
   .md\:flex-row {
