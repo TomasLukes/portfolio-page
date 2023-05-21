@@ -11,7 +11,7 @@ export default function Hero() {
           <h1 className="text-3xl md:text-6xl font-bold whitespace-nowrap md:whitespace-normal pb-1 md:pb-2">
             Tomáš Lukeš
           </h1>
-          <h3 className="text-xl md:text-2xl pb-3 md:pb-6 ">
+          <h3 className="text-xl md:text-2xl mb-3 md:mb-6 border-solid border-l-8 pl-2 border-green-900">
             Frontend React developer
           </h3>
           {/* Info paragraph desktop */}
@@ -45,7 +45,7 @@ export default function Hero() {
         {/* Right item */}
         <div className="w-1/2">
           {/* Profile photo */}
-          <img className="w-32 md:w-80 rounded-full object-cover ml-auto md:mr-4 "
+          <img className="w-32 md:w-80 rounded-full object-cover ml-auto md:mr-4 border-solid border-2 border-neutral-300 border-opacity-50"
             src="/assets/images/profile-photo.jpg" alt="" 
           />
           {/* Blob animation */}
@@ -64,7 +64,7 @@ export default function Hero() {
       </p>
 
       {/* Skills container  */}
-      <div className="container mx-auto pt-12 md:pt-24 md:w-4/5 md:ml-0">
+      <div className="container mx-auto pt-12 md:pt-24 md:w-4/5">
         {/* Tech stack */}
         <TechStack />
       </div>
@@ -73,7 +73,7 @@ export default function Hero() {
         <filter id='noiseFilter'>
           <feTurbulence 
             type='fractalNoise' 
-            baseFrequency='0.85' 
+            baseFrequency='0.925' 
             stitchTiles='stitch'/>
           <feColorMatrix in="colorNoise" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
               <feComposite operator="in" in2="SourceGraphic" result="monoNoise"/>

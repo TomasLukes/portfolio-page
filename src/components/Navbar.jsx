@@ -21,7 +21,7 @@ export default function Navbar() {
         </div> */}
         
         {/* Menu items - desktop */}
-        <div className="hidden md:flex space-x-16 text-lg">
+        <div className="hidden md:flex space-x-16 text-lg md:text-xl">
           <a href="#about" className="hover:text-neutral-700 drop-shadow-sm">O mně</a>
           <a href="#projects" className="hover:text-neutral-700 drop-shadow-sm">Projekty</a>
           <a href="#contacts" className="hover:text-neutral-700 drop-shadow-sm">Kontakty</a>        

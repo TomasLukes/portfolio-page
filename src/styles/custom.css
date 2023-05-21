@@ -41,10 +41,10 @@ section, nav {
 
   /* Code snippet test */
   :root {
-    --bg: #F0DBA5;
-    --yellow: #facc15;
-    --red: #fde047;
-    --green: #f59e0b;
+    --bg: #0A0A0A;
+    --yellow: #345511;
+    --red: #058C42;
+    --green: #3F6634;
   }
     
   body::before,
@@ -56,11 +56,11 @@ section, nav {
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 50%;
+    opacity: 25%;
   }
   
   body::before {
-    background: #737373;
+    background: #141414;
     filter: url(#noiseFilter);
   }
   
@@ -74,7 +74,7 @@ section, nav {
    
   .blob {
     border-radius: 100px;
-    filter: blur(60px);
+    filter: blur(50px);
   }
   
   .yellow {
