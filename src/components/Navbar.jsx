@@ -22,9 +22,9 @@ export default function Navbar() {
         
         {/* Menu items - desktop */}
         <div className="hidden md:flex space-x-16 text-lg md:text-xl">
-          <a href="#about" className="hover:text-neutral-700 drop-shadow-sm">O mně</a>
-          <a href="#projects" className="hover:text-neutral-700 drop-shadow-sm">Projekty</a>
-          <a href="#contacts" className="hover:text-neutral-700 drop-shadow-sm">Kontakty</a>        
+          <a href="#about" className="hover:text-yellow-500 drop-shadow-sm">O mně</a>
+          <a href="#projects" className="hover:text-yellow-500 drop-shadow-sm">Projekty</a>
+          <a href="#contacts" className="hover:text-yellow-500 drop-shadow-sm">Kontakty</a>        
         </div>
 
         {/* Hamburger icon */}
@@ -41,12 +41,12 @@ export default function Navbar() {
       {/* Mobile menu */}
       <div className="md:hidden">
         <div id="menu" className={`${!mobileMenuOpen && 'hidden'} absolute flex flex-col gap-4 items-center self-end py-8 font-bold rounded-sm
-         bg-neutral-200 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
-          <a href="#about" className="hover:text-neutral-700">O mně</a>            
+         bg-neutral-200 text-neutral-900 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
+          <a href="#about">O mně</a>            
             <span className="w-4/5 mx-auto border border-solid border-b-1 border-gray-300 drop-shadow-sm"></span>
-          <a href="#projects" className="hover:text-neutral-700">Projekty</a>
+          <a href="#projects">Projekty</a>
             <span className="w-4/5 mx-auto border border-solid border-b-1 border-gray-300 drop-shadow-sm"></span>
-          <a href="#contacts" className="hover:text-neutral-700">Kontakty</a>
+          <a href="#contacts">Kontakty</a>
         </div>
       </div>
     </nav>

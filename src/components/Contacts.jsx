@@ -12,25 +12,25 @@ export default function Contacts() {
           <div className="flex flex-row gap-2 md:gap-4">
             {/* Name input */}
             <input type='text' name="name" placeholder="Jméno" className="placeholder:italic placeholder:text-slate-400 block
-             bg-neutral-50 w-full border border-neutral-800 rounded-md py-2 pl-3 pr-3 shadow-sm 
+             bg-neutral-50 w-full rounded-md py-2 pl-3 pr-3 shadow-sm 
              focus:outline-none focus:border-yello-500 focus:ring-yellow-500 focus:ring-1 sm:text-sm" 
             />
             {/* Email input */}
             <input type='email' name="email" placeholder="E-mail" className="placeholder:italic placeholder:text-slate-400 block
-             bg-neutral-50 w-full border border-neutral-800 rounded-md py-2 pl-3 pr-3 shadow-sm 
+             bg-neutral-50 w-full rounded-md py-2 pl-3 pr-3 shadow-sm 
              focus:outline-none focus:border-yello-500 focus:ring-yellow-500 focus:ring-1 sm:text-sm" 
             />
           </div>
           {/* Message textarea */}
           <div>
             <textarea name="message" placeholder="Zpráva" className="placeholder:italic placeholder:text-slate-400 block
-            bg-neutral-50 w-full border border-neutral-800 rounded-md h-32 resize-none py-2 pl-3 pr-3 shadow-sm 
+            bg-neutral-50 w-full rounded-md h-32 resize-none py-2 pl-3 pr-3 shadow-sm 
               focus:outline-none focus:border-yello-500 focus:ring-yellow-500 focus:ring-1 sm:text-sm md:mt-3" 
             >
             </textarea>
           </div>
           {/* Submit button */}
-          <button className="mt-4 md:mt-6 m px-6 py-3 bg-neutral-900 text-neutral-100 rounded-lg">
+          <button className="mt-4 md:mt-6 m px-6 py-3 bg-neutral-800 text-neutral-100 rounded-lg border border-neutral-50">
             Odeslat
           </button>
         </form>

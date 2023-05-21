@@ -10,7 +10,7 @@ export default function Projects() {
         <h2 className="text-2xl md:text-4xl font-bold pb-3 md:pb-6">
           Projects
         </h2>
-        <p className="md:w-3/5 text-justify pb-6 md:pb-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores perferendis pariatur 
+        <p className="md:w-3/5 text-justify pb-6 md:pb-12 text-neutral-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores perferendis pariatur 
           itaque praesentium dolores fugit corrupti soluta tempore voluptatum perspiciatis neque enim repellendus, 
           est commodi rem maxime corporis? Odit!
         </p>
@@ -36,7 +36,7 @@ export default function Projects() {
         <h3 className="text-xl md:text-2xl font-semibold pt-6 md:pt-12 pb-3 md:pb-6">
           Scrimba solo projects
         </h3>
-        <p className="md:w-3/5 text-justify pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores perferendis pariatur 
+        <p className="md:w-3/5 text-justify pb-6 text-neutral-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores perferendis pariatur 
           itaque praesentium dolores fugit corrupti soluta tempore voluptatum perspiciatis neque enim repellendus, 
           est commodi rem maxime corporis? Odit!
         </p>
