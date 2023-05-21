@@ -16,7 +16,7 @@ export default function ProjectCardSm({ name, description, img, url, ghUrl }) {
           {name}
         </h5>
         {/* Project description */}
-        <p className="pb-6 font-normal text-gray-300">
+        <p className="pb-6 font-normal text-neutral-200">
           {description}
         </p>
       </div>
