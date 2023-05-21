@@ -8,7 +8,7 @@ export default function Projects() {
       {/* Projects container */}
       <div className="container mx-auto">
         <h2 className="text-2xl md:text-4xl font-bold pb-3 md:pb-6">
-          Projects
+          Projekty
         </h2>
         <p className="md:w-3/5 text-justify pb-6 md:pb-12 text-neutral-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores perferendis pariatur 
           itaque praesentium dolores fugit corrupti soluta tempore voluptatum perspiciatis neque enim repellendus, 

@@ -3,7 +3,7 @@ export default function Timeline() {
     /* Timeline */
     <ol id="timeline" className="h-full border-l-4 border-neutral-200 ">
 
-      <li className="pl-6 pb-8 pt-6 relative">
+      <li className="pl-8 pb-8 pt-6 relative">
         <img src="/assets/images/icons/jobs/hostynska.png" 
           className="absolute top-6 left-[-2px] w-8 h-8 bg-neutral-100 rounded-full transform -translate-x-1/2" alt="" />
         <h5 className="text-xl font-semibold">Učitel IT</h5>
@@ -15,7 +15,7 @@ export default function Timeline() {
         </p>
       </li>
 
-      <li className="pl-6 pb-8 relative">
+      <li className="pl-8 pb-8 relative">
       <img src="/assets/images/icons/jobs/CT.png" 
           className="absolute left-[-2px] w-8 h-8 bg-neutral-100 rounded-full transform -translate-x-1/2" alt="" />
         <h5 className="text-xl font-semibold">Koordinátor postprodukce</h5>
@@ -27,7 +27,7 @@ export default function Timeline() {
         </p>
       </li>
 
-      <li className="pl-6 pb-8 relative">
+      <li className="pl-8 pb-8 relative">
       <img src="/assets/images/icons/jobs/CT.png" 
           className="absolute left-[-2px] w-8 h-8 bg-neutral-100 rounded-full transform -translate-x-1/2" alt="" />
         <h5 className="text-xl font-semibold">Technik zvukové techniky</h5>
@@ -39,7 +39,7 @@ export default function Timeline() {
         </p>
       </li>
 
-      <li className="pl-6 pb-8 relative">
+      <li className="pl-8 pb-8 relative">
       <img src="/assets/images/icons/jobs/Panska.png" 
           className="absolute left-[-2px] w-8 h-8 bg-neutral-100 rounded-full transform -translate-x-1/2" alt="" />
         <h5 className="text-xl font-semibold">Audiovizuální technika</h5>
