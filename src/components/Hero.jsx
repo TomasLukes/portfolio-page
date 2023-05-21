@@ -50,9 +50,9 @@ export default function Hero() {
           />
           {/* Blob animation */}
           <div className="container blob-cont">
-            <div className="yellow blob"></div>
-            <div className="red blob"></div>
-            <div className="green blob"></div>
+            <div className="blob-1 blob"></div>
+            <div className="blob-2 blob"></div>
+            <div className="blob-3 blob"></div>
           </div>
         </div>
       </div>

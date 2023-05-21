@@ -1167,9 +1167,9 @@ section, nav {
 
 :root {
   --bg: #0A0A0A;
-  --yellow: #345511;
-  --red: #058C42;
-  --green: #3F6634;
+  --blob-1: #BA1200;
+  --blob-2: #5E4077;
+  --blob-3: #FFAE03;
 }
 
 body::before,
@@ -1200,40 +1200,40 @@ body::before {
 
 .blob {
   border-radius: 100px;
-  filter: blur(50px);
+  filter: blur(75px);
 }
 
-.yellow {
-  background-color: var(--yellow);
+.blob-1 {
+  background-color: var(--blob-1);
   position: absolute;
   top: 200px;
   left: 100px;
-  height: 200px;
-  width: 200px;
-  animation: yellow 8s infinite ease;
+  height: 150px;
+  width: 150px;
+  animation: blob-1 8s infinite ease;
 }
 
-.green {
-  background-color: var(--green);
+.blob-3 {
+  background-color: var(--blob-3);
   position: absolute;
   top: 80px;
   right: -20px;
-  height: 200px;
-  width: 250px;
-  animation: green 8s infinite ease;
+  height: 150px;
+  width: 200px;
+  animation: blob-3 8s infinite ease;
 }
 
-.red {
-  background-color: var(--red);
+.blob-2 {
+  background-color: var(--blob-2);
   position: absolute;
   right: 0;
   top: 300px;
-  height: 250px;
-  width: 200px;
-  animation: red 8s infinite linear;
+  height: 200px;
+  width: 150px;
+  animation: blob-2 8s infinite linear;
 }
 
-@keyframes yellow {
+@keyframes blob-1 {
   0% {
     top: 200px;
     left: 100px;
@@ -1259,7 +1259,7 @@ body::before {
   }
 }
 
-@keyframes green {
+@keyframes blob-3 {
   0% {
     top: 80px;
     right: -20px;
@@ -1285,7 +1285,7 @@ body::before {
   }
 }
 
-@keyframes red {
+@keyframes blob-2 {
   0% {
     top: 250px;
     right: 0px;
@@ -1322,26 +1322,26 @@ body::before {
     right: 50px;
   }
 
-  .yellow, .green, .red {
+  .blob-1, .blob-3, .blob-2 {
     height: 75px;
     width: 100px;
   }
 
-  .yellow {
+  .blob-1 {
     top: 100px;
     left: 50px;
   }
 
-  .green {
+  .blob-3 {
     top: 40px;
     right: -10px;
   }
 
-  .red {
+  .blob-2 {
     top: 150px;
   }
 
-  @keyframes yellow {
+  @keyframes blob-1 {
     0% {
       top: 100px;
       left: 50px;
@@ -1367,7 +1367,7 @@ body::before {
     }
   }
 
-  @keyframes green {
+  @keyframes blob-3 {
     0% {
       top: 40px;
       right: -10px;
@@ -1393,7 +1393,7 @@ body::before {
     }
   }
 
-  @keyframes red {
+  @keyframes blob-2 {
     0% {
       top: 125px;
       right: 0px;
