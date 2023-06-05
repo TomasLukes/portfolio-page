@@ -10,8 +10,8 @@ export default function App() {
     <div id="app" className=" text-neutral-100">
       <Navbar />
       <Hero />
-      <About />
       <Projects />
+      <About />
       <Contacts />
       <Footer />
     </div>
