@@ -15,7 +15,7 @@ export default function Hero() {
             Frontend React developer
           </h3>
           {/* Info paragraph desktop */}
-          <p className="hidden md:block w-4/5 text-lg text-justify pb-6 text-neutral-200">
+          <p className="hidden md:block w-full lg:w-4/5 text-lg text-justify pb-6 text-neutral-200">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
             Quod adipisci totam ipsam nisi doloribus vel quis nostrum mollitia ad, 
             dolor eligendi sequi illum esse fugit est quas reiciendis repellendus molestiae.
@@ -45,7 +45,7 @@ export default function Hero() {
         {/* Right item */}
         <div className="w-1/2">
           {/* Profile photo */}
-          <img className="w-32 md:w-80 rounded-full object-cover ml-auto md:mr-4 border-solid border-2 border-neutral-300 border-opacity-50"
+          <img className="w-32 md:w-60 lg:w-80 rounded-full object-cover ml-auto md:mr-4 border-solid border-2 border-neutral-300 border-opacity-50"
             src="/assets/images/profile-photo.jpg" alt="" 
           />
           {/* Blob animation */}

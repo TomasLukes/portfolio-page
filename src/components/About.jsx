@@ -7,7 +7,7 @@ export default function About() {
       {/* About container */}
       <div className="container mx-auto">
         <h2 className="text-2xl md:text-4xl font-bold pb-3 md:pb-6">O mně</h2>
-        <p className="md:w-3/5 text-justify text-neutral-200 pb-4 md:pb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores perferendis pariatur 
+        <p className="md:w-3/5 text-justify text-neutral-200 pb-8 md:pb-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores perferendis pariatur 
           itaque praesentium dolores fugit corrupti soluta tempore voluptatum perspiciatis neque enim repellendus, 
           est commodi rem maxime corporis? Odit!
         </p>

@@ -131,10 +131,10 @@ section, nav {
     100% {top: 250px; right: 0px; transform: scale(1);}
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 992px) {
     body::before,
     body::after {
-      opacity: 35%;
+      opacity: 30%;
     }
 
     .blob {
@@ -142,13 +142,13 @@ section, nav {
     }
 
     .blob-cont {
-      top: -150px;
+      top: -200px;
       right: 50px;
     }
   
     .blob-1, .blob-3, .blob-2 {
       height: 50px;
-      width: 75px;
+      width: 150px;
     }
   
     .blob-1 {

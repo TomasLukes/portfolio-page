@@ -1,7 +1,7 @@
 export default function ProjectCardLg({ name, description, img, url, ghUrl }) {
   return (
     /* ProjectCard large container */
-    <article className="flex flex-col md:flex-row md:w-3/5 bg-neutral-900 border border-gray-700 rounded-lg shadow-md">
+    <article className="flex flex-col md:flex-row md:w-3/4 md:h-96 bg-neutral-900 border border-gray-700 rounded-lg shadow-md">
       {/* Left item */}
       <div className="flex flex-col">
         {/* Screenshot image */}

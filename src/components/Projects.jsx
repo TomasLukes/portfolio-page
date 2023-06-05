@@ -15,7 +15,7 @@ export default function Projects() {
           est commodi rem maxime corporis? Odit!
         </p>
 
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col items-center gap-8">
           <ProjectCardLg 
             name={'Triviathon'}
             description={'Trivia quiz application that fetches questions from the Open Trivia Database and allows users to test their knowledge across various categories. Created with React, Vite, Tailwind CSS for styling, and Material UI components for form.'}
@@ -41,8 +41,7 @@ export default function Projects() {
           est commodi rem maxime corporis? Odit!
         </p>
         {/* Scrimba projects cards container */}
-        <div className="flex flex-col gap-6 md:gap-8
-          md:flex-row">
+        <div className="flex flex-col lg:flex-row items-center gap-6 md:gap-8">
           {/* Scrimba project cards */}
           <ProjectCardSm 
             name={'Triviathon'}
