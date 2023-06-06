@@ -16,10 +16,10 @@ export default function Hero() {
           </h3>
           {/* Info paragraph desktop */}
           <p className="hidden md:block w-full lg:w-4/5 text-justify pb-3 text-neutral-200">
-            Jmenuji se Tomáš a jsem frontend developer z Prahy. Již přes rok se intenzivně věnuji webovému vývoji. Mám zkušenosti s celou řadou technologií, včetně Reactu, Tailwindu, Sassu a mnoha dalších. V současné době se učím Next.js a Typescript při práci na nejnovějším projektu.
+            Jmenuji se Tomáš a jsem frontend developer z Prahy. Po ročním intenzivním studiu webového vývoje hledám pozici, kde bych se mohl dále posouvat.
           </p>
           <p className="hidden md:block w-full lg:w-4/5 text-justify pb-6 text-neutral-200">
-            Umím všechno? Zdaleka ne. Ale mám za sebou více než 10 let zkušeností na různých technických pozicích a pokud hledáte posilu do svého týmu s potenciálem rychlého růstu a schopnosti neustále se učit, neváhejte mě kontaktovat.
+            Umím všechno? Zdaleka ne. Ale mám za sebou více než 10 let zkušeností na technických pozicích a pokud hledáte posilu s potenciálem rychlého růstu a schopnosti neustále se učit, čtěte dále.
           </p>  
           {/* Social icons */}
           <div className="flex gap-4 pb-3 md:py-4 md:gap-6">
@@ -59,10 +59,10 @@ export default function Hero() {
       </div>
 
       <p className="md:hidden container text-sm mx-auto text-justify pt-6 text-neutral-200">
-        Jmenuji se Tomáš a jsem frontend developer z Prahy. Již přes rok se intenzivně věnuji webovému vývoji. Mám zkušenosti s celou řadou technologií, včetně Reactu, Tailwindu, Sassu a mnoha dalších. V současné době se učím Next.js a Typescript při práci na nejnovějším projektu.
+        Jmenuji se Tomáš a jsem frontend developer z Prahy. Po ročním intenzivním studiu webového vývoje hledám pozici, kde bych mohl dále růst.
         <br></br>
         <br></br>
-        Umím všechno? Zdaleka ne. Ale mám za sebou více než 10 let zkušeností na různých technických pozicích a pokud hledáte posilu do svého týmu s potenciálem rychlého růstu a schopnosti neustále se učit, neváhejte mě kontaktovat.
+        Umím všechno? Zdaleka ne. Ale mám za sebou více než 10 let zkušeností na technických pozicích a pokud hledáte posilu s potenciálem rychlého růstu a schopnosti neustále se učit, čtěte dále.
       </p>
 
       {/* Skills container  */}

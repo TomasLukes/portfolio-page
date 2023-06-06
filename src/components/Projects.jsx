@@ -11,12 +11,11 @@ export default function Projects() {
           Projekty
         </h2>
         <p className="md:w-3/5 text-justify pb-6 md:pb-12 text-neutral-200">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, asperiores perferendis pariatur 
-          itaque praesentium dolores fugit corrupti soluta tempore voluptatum perspiciatis neque enim repellendus, 
-          est commodi rem maxime corporis? Odit!
+          Během studia technologií potřebných pro web development, jsem se učil převážně pomocí vývoje vlastních projektů.
+          Zde sdílím dva mé největší fullstack projekty, které nejvíce odráží moje aktuální schopnosti.
         </p>
 
-        <div className="flex flex-col items-center gap-8">
+        <div className="flex flex-col gap-8">
           <ProjectCardLg 
             name={'Lynxes'}
             description={'Trivia quiz application that fetches questions from the Open Trivia Database and allows users to test their knowledge across various categories. Created with React, Vite, Tailwind CSS for styling, and Material UI components for form.'}
@@ -39,7 +38,7 @@ export default function Projects() {
         </h3>
         <p className="md:w-3/5 text-justify pb-6 text-neutral-200">
         V rámci kurzu Scrimba Frontend Career Path jsem měl příležitost pracovat na řadě samostatných projektů. 
-        Obdržel jsem design ve Figmě, který jsem si upravil a přidal celou řadu vlastních prvků a dodatečné funkcionality.
+        Obdržel jsem design ve Figmě, který jsem si upravil a přidal celou řadu vlastních prvků a rozšířil požadovanou funkcionalitu.
         </p>
         {/* Scrimba projects cards container */}
         <div className="flex flex-col lg:flex-row gap-6 md:gap-8">
