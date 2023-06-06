@@ -53,7 +53,7 @@ export default function Projects() {
             <ProjectCardSm 
               name={'Tenzies'} 
               description={'Dice game application where players compete to achieve the highest score by strategically rolling and holding dice. Developed using React, Vite, and Sass for styling. Users time is tracked, and they can compete against their personal best record.'}
-              img={'tenzies-screenshot-desktop.png'}
+              img={'tenzies-desktop.gif'}
               url={'https://tenzies.tomaslukes.com/'}
               ghUrl={'https://github.com/TomasLukes/scrimba-solo-projects/tree/main/02_tenzies'}
             />
