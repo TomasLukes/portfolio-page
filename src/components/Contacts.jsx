@@ -4,7 +4,7 @@ export default function Contacts() {
     <section id="contacts" className="pt-12 md:pt-24 pb-16 md:pb-32 px-8" >
       {/* Contacts container */}
       <div className="container mx-auto">
-      <h2 className="text-2xl md:text-4xl text-center font-bold pb-3 md:pb-9">
+      <h2 className="w-fit mx-auto text-2xl md:text-4xl font-bold mb-3 md:mb-9 border-solid border-l-8 pl-2 border-yellow-500">
         Kontakt
       </h2>
         <form action="" className="grid grid-cols-1 gap-2 md:w-3/5 mx-auto">

@@ -7,7 +7,7 @@ export default function Projects() {
     <section id="projects" className="pt-12 md:pt-24 px-8">
       {/* Projects container */}
       <div className="container mx-auto">
-        <h2 className="text-2xl md:text-4xl font-bold pb-3 md:pb-6">
+        <h2 className="text-2xl md:text-4xl font-bold mb-3 md:mb-6 border-solid border-l-8 pl-2 border-yellow-500">
           Projekty
         </h2>
         <p className="md:w-3/5 text-justify pb-6 md:pb-12 text-neutral-200">
@@ -18,22 +18,26 @@ export default function Projects() {
         <div className="flex flex-col gap-8">
           <ProjectCardLg 
             name={'Lynxes'}
+            CSS={'Tailwind'}
             description={'Trivia quiz application that fetches questions from the Open Trivia Database and allows users to test their knowledge across various categories. Created with React, Vite, Tailwind CSS for styling, and Material UI components for form.'}
-            img={'Test_Animation.gif'}
+            imgHorizontal={'lynxes-horizontal.gif'}
+            imgVertical={'lynxes-vertical.gif'}
             url={'https://lynxes.tomaslukes.com/'}
             ghUrl={'https://github.com/TomasLukes/scrimba-solo-projects/tree/main/03_triviathon'}
           />
 
           <ProjectCardLg 
             name={'Innovoicer'}
+            CSS={'Sass'}
             description={'Trivia quiz application that fetches questions from the Open Trivia Database and allows users to test their knowledge across various categories. Created with React, Vite, Tailwind CSS for styling, and Material UI components for form.'}
-            img={'triviathon-screenshot-desktop.png'}
+            imgHorizontal={'innovoicer-horizontal.jpg'}
+            imgVertical={'innovoicer-vertical.jpg'}
             url={'https://innovoicer.tomaslukes.com/'}
             ghUrl={'https://github.com/TomasLukes/scrimba-solo-projects/tree/main/03_triviathon'}
           />
         </div>
 
-        <h3 className="text-xl md:text-2xl font-semibold pt-6 md:pt-12 pb-3 md:pb-6">
+        <h3 className="text-xl md:text-2xl font-semibold mt-6 md:mt-12 mb-3 md:mb-6 border-solid border-l-8 pl-2 border-yellow-500">
           Scrimba solo projects
         </h3>
         <p className="md:w-3/5 text-justify pb-6 text-neutral-200">
@@ -51,7 +55,7 @@ export default function Projects() {
             ghUrl={'https://github.com/TomasLukes/scrimba-solo-projects/tree/main/03_triviathon'}
           />
             <ProjectCardSm 
-              name={'Tenzies'} 
+              name={'Tenzies'}
               description={'Dice game application where players compete to achieve the highest score by strategically rolling and holding dice. Developed using React, Vite, and Sass for styling. Users time is tracked, and they can compete against their personal best record.'}
               img={'tenzies.gif'}
               url={'https://tenzies.tomaslukes.com/'}
