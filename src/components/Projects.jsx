@@ -19,7 +19,7 @@ export default function Projects() {
           <ProjectCardLg 
             name={'Lynxes'}
             description={'Trivia quiz application that fetches questions from the Open Trivia Database and allows users to test their knowledge across various categories. Created with React, Vite, Tailwind CSS for styling, and Material UI components for form.'}
-            img={'moviesearch-screenshot-desktop.png'}
+            img={'Test_Animation.gif'}
             url={'https://lynxes.tomaslukes.com/'}
             ghUrl={'https://github.com/TomasLukes/scrimba-solo-projects/tree/main/03_triviathon'}
           />
