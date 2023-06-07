@@ -19,21 +19,21 @@ export default function Projects() {
           <ProjectCardLg 
             name={'Lynxes'}
             CSS={'Tailwind'}
-            description={'Trivia quiz application that fetches questions from the Open Trivia Database and allows users to test their knowledge across various categories. Created with React, Vite, Tailwind CSS for styling, and Material UI components for form.'}
+            description={'Fiktivní e-shop s audiofilními zařízeními. Prototyp stránky je hotov, ve druhé dokončovací fázi plně implementuji Typescript a využiji všechny benefity Next.js a Firebase.'}
             imgHorizontal={'lynxes-horizontal.gif'}
             imgVertical={'lynxes-vertical.gif'}
             url={'https://lynxes.tomaslukes.com/'}
-            ghUrl={'https://github.com/TomasLukes/scrimba-solo-projects/tree/main/03_triviathon'}
+            ghUrl={'https://github.com/TomasLukes/lynxes'}
           />
 
           <ProjectCardLg 
             name={'Innovoicer'}
             CSS={'Sass'}
-            description={'Trivia quiz application that fetches questions from the Open Trivia Database and allows users to test their knowledge across various categories. Created with React, Vite, Tailwind CSS for styling, and Material UI components for form.'}
+            description={'Další projekt, na kterém budu pracovat. Půjde o applikaci, kam si mohou uživatele ukládat své faktury a dále je spravovat.'}
             imgHorizontal={'innovoicer-horizontal.jpg'}
             imgVertical={'innovoicer-vertical.jpg'}
             url={'https://innovoicer.tomaslukes.com/'}
-            ghUrl={'https://github.com/TomasLukes/scrimba-solo-projects/tree/main/03_triviathon'}
+            ghUrl={'https://github.com/TomasLukes/innovoicer'}
           />
         </div>
 
@@ -49,21 +49,21 @@ export default function Projects() {
           {/* Scrimba project cards */}
           <ProjectCardSm 
             name={'Triviathon'}
-            description={'Trivia quiz application that fetches questions from the Open Trivia Database and allows users to test their knowledge across various categories. Created with React, Vite, Tailwind CSS for styling, and Material UI components for form.'}
+            description={'Kvízová aplikace, ve které si uživatel může navolit sadu otázek z různých oblastí a ověřit své vědomosti. Vytvořeno pomocí React+Tailwind, pro formulář jsou použity komponenty z MUI, bundling ve Vite. Data jsou načítána z OpenTrivia DB API.'}
             img={'triviathon.gif'}
             url={'https://triviathon.tomaslukes.com/'}
             ghUrl={'https://github.com/TomasLukes/scrimba-solo-projects/tree/main/03_triviathon'}
           />
             <ProjectCardSm 
               name={'Tenzies'}
-              description={'Dice game application where players compete to achieve the highest score by strategically rolling and holding dice. Developed using React, Vite, and Sass for styling. Users time is tracked, and they can compete against their personal best record.'}
+              description={'Kostková hra, ve které se hráč snaží co nejrychleji posbírat všechny kostky stejné hodnoty a překonat dosud nejlepší čas. Development ve Vite, React, styling je vanilla CSS s BEM metodikou.'}
               img={'tenzies.gif'}
               url={'https://tenzies.tomaslukes.com/'}
               ghUrl={'https://github.com/TomasLukes/scrimba-solo-projects/tree/main/02_tenzies'}
             />
           <ProjectCardSm 
             name={'Movie Search'} 
-            description={'Movie search application utilizing the OMDB API to search movie informations. Built with vanilla CSS and JavaScript. Users can add or remove movies to a watchlist, which is stored in localStorage.'}
+            description={'Applikace pro vyhledávání a ukládání filmů pro pozdější shlédnutí. Data o filmech jsou načítána z OMDB API. Vývoj ve Vite, React (RR6 pro routing), Sass pro stylování.'}
             img={'movie-search.gif'}
             url={'https://moviesearch.tomaslukes.com/'}
             ghUrl={'https://github.com/TomasLukes/scrimba-solo-projects/tree/main/04_movie-search'}
