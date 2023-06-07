@@ -5,24 +5,24 @@ export default function Hero() {
     /* Hero section */
     <section id="hero" className="grid place-content-center px-8">
       {/* Hero container */}
-      <div className="container flex gap-4 mx-auto md:gap-8">
+      <div className="container mx-auto flex gap-4 md:gap-8">
         {/* Left item */}
         <div className="w-1/2">
-          <h1 className="text-3xl md:text-6xl font-bold whitespace-nowrap md:whitespace-normal pb-1 md:pb-2">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold whitespace-nowrap md:whitespace-normal mb-1 md:mb-2">
             Tomáš Lukeš
           </h1>
           <h3 className="text-xl md:text-2xl mb-3 md:mb-6 border-solid border-l-8 pl-2 border-yellow-500">
             Frontend React developer
           </h3>
           {/* Info paragraph desktop */}
-          <p className="hidden md:block w-full lg:w-4/5 text-justify pb-3 text-neutral-200">
+          <p className="hidden md:block w-full lg:w-4/5 text-justify mb-3 text-neutral-200">
             Jmenuji se Tomáš a jsem frontend developer z Prahy. Po ročním intenzivním studiu webového vývoje hledám pozici, kde bych se mohl dále posouvat.
           </p>
-          <p className="hidden md:block w-full lg:w-4/5 text-justify pb-6 text-neutral-200">
+          <p className="hidden md:block w-full lg:w-4/5 text-justify mb-6 text-neutral-200">
             Umím všechno? Zdaleka ne. Ale mám za sebou více než 10 let zkušeností na technických pozicích a pokud hledáte posilu s potenciálem rychlého růstu a schopnosti neustále se učit, čtěte dále.
           </p>  
           {/* Social icons */}
-          <div className="flex gap-4 pb-3 md:py-4 md:gap-6">
+          <div className="flex gap-4 mb-3 md:my-4 md:gap-6">
             {/* Linkedin logo */}
             <a href="https://www.linkedin.com/in/tomas-lukes" className="">
               <svg className="w-6 md:w-8  fill-neutral-100 hover:fill-yellow-500 hover:scale-105" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" >
@@ -50,7 +50,7 @@ export default function Hero() {
             src="/assets/images/profile-photo.jpg" alt="" 
           />
           {/* Blob animation */}
-          <div className="container blob-cont">
+          <div className="container blob-container">
             <div className="blob-1 blob"></div>
             <div className="blob-2 blob"></div>
             <div className="blob-3 blob"></div>
@@ -58,15 +58,14 @@ export default function Hero() {
         </div>
       </div>
 
-      <p className="md:hidden container text-sm mx-auto text-justify pt-6 text-neutral-200">
+      <p className="md:hidden container text-sm mx-auto text-justify mt-6 text-neutral-200">
         Jmenuji se Tomáš a jsem frontend developer z Prahy. Po ročním intenzivním studiu webového vývoje hledám pozici, kde bych mohl dále růst.
-        <br></br>
-        <br></br>
+      </p>
+      <p className="md:hidden container text-sm mx-auto text-justify mt-3 text-neutral-200">
         Umím všechno? Zdaleka ne. Ale mám za sebou více než 10 let zkušeností na technických pozicích a pokud hledáte posilu s potenciálem rychlého růstu a schopnosti neustále se učit, čtěte dále.
       </p>
-
       {/* Skills container  */}
-      <div className="container mx-auto pt-12 md:pt-24 md:w-4/5">
+      <div className="container mx-auto mt-12 md:mt-24 md:w-4/5">
         {/* Tech stack */}
         <TechStack />
       </div>

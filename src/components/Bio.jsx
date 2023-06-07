@@ -1,4 +1,3 @@
-import Timeline from "./Timeline"
 
 export default function Bio() {
   return (

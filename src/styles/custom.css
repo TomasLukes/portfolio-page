@@ -16,8 +16,8 @@ section, nav {
 
 .hamburger {
     cursor: pointer;
-    width: 24px;
-    height: 16px;
+    width: 40px;
+    height: 20px;
     transition: all 0.25s;
     position: relative;
   }
@@ -26,17 +26,17 @@ section, nav {
     position: absolute;
     top: 0;
     left: 0;
-    width: 24px;
-    height: 2px;
+    width: 40px;
+    height: 3px;
     background-color: #f5f5f5;
   }
   
   .hamburger-middle {
-    transform: translateY(7px);
+    transform: translateY(9px);
   }
   
   .hamburger-bottom {
-    transform: translateY(14px);
+    transform: translateY(18px);
   }
 
   /* Code snippet test */
@@ -65,7 +65,7 @@ section, nav {
   }
   
   /* Blobs */
-  .blob-cont {
+  .blob-container {
     position: relative;
     top: -450px;
     right: 0px;
@@ -138,16 +138,16 @@ section, nav {
     }
 
     .blob {
-      filter: blur(50px);
+      filter: blur(75px);
     }
 
-    .blob-cont {
-      top: -200px;
-      right: 50px;
+    .blob-container {
+      top: -250px;
+      right: 75px;
     }
   
     .blob-1, .blob-3, .blob-2 {
-      height: 50px;
+      height: 100px;
       width: 150px;
     }
   
@@ -155,16 +155,16 @@ section, nav {
       top: 100px;
       left: 50px;
     }
-  
+    
+    .blob-2 {
+      top: 150px;
+    }
+    
     .blob-3 {
       top: 40px;
       right: -10px;
     }
   
-    .blob-2 {
-      top: 150px;
-    }
-    
     @keyframes blob-1 {
       0% {top: 100px; left: 50px; transform: scale(1);}
       30% {top: 150px; left: 75px; transform: scale(1.2);}
@@ -187,3 +187,32 @@ section, nav {
     }
   }
 
+  @media only screen and (max-width: 600px) {
+    .blob-container {
+      top: -200px;
+    }
+  
+    .blob-1, .blob-3, .blob-2 {
+      height: 50px;
+      width: 100px;
+    }
+
+    .hamburger {
+      width: 24px;
+      height: 12px;
+    }
+    
+    .hamburger span {
+      width: 24px;
+      height: 2px;
+    }
+    
+    .hamburger-middle {
+      transform: translateY(7px);
+    }
+    
+    .hamburger-bottom {
+      transform: translateY(14px);
+    }
+
+  }

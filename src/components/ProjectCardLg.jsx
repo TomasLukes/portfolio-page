@@ -1,7 +1,8 @@
+
 export default function ProjectCardLg({ name, description, imgHorizontal, imgVertical, url, ghUrl, CSS }) {
   return (
     /* ProjectCard large container */
-    <article className="flex flex-col md:flex-row md:w-3/5 overflow-hidden bg-neutral-900 border border-gray-700 rounded-lg shadow-md">
+    <article className="flex flex-col md:flex-row md:w-4/5 lg:w-3/5 overflow-hidden bg-neutral-900 border border-gray-700 rounded-lg shadow-md">
       {/* Left item */}
       <div className="flex flex-col md:w-2/5">
         {/* Screenshot image */}
@@ -17,7 +18,7 @@ export default function ProjectCardLg({ name, description, imgHorizontal, imgVer
         </a>
       </div>   
       {/* Project info container */}
-      <div className="flex flex-col md:w-3/5 py-8 px-10">
+      <div className="flex flex-col md:w-4/5 lg:3/5 py-8 px-10">
         {/* Title and description container */}
         <div className="flex-grow">
           {/* Headline */}

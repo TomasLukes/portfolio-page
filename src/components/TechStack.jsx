@@ -12,7 +12,7 @@ export default function TechStack() {
         <li className="w-28 md:w-36 px-5 py-2 rounded-3xl border border-1 border-neutral-700">
           <div className="mx-auto flex items-center justify-center gap-2">
             {/* HTML img icon */}
-            <img className="h-5 w-5 md:w-7 md:h-7 md:w-7 md:h-7" src="/assets/images/icons/tech/html5-colored.svg" alt="" />
+            <img className="h-5 w-5 md:w-7 md:h-7" src="/assets/images/icons/tech/html5-colored.svg" alt="" />
             {/* HTML label */}
             <label className="font-medium ">
             HTML  
@@ -120,7 +120,7 @@ export default function TechStack() {
         <li className="w-28 md:w-36 px-5 py-2 rounded-3xl border border-1 border-neutral-700">
           <div className="mx-auto flex items-center justify-center gap-2">
             {/* Figma img icon */}
-            <img className="h-5 w-5 md:w-7 md:h-7 md:w-7 md:h-7" src="/assets/images/icons/tech/figma-colored.svg" alt="" />
+            <img className="h-5 w-5 md:w-7 md:h-7" src="/assets/images/icons/tech/figma-colored.svg" alt="" />
             {/* Figma label */}
             <label className=" justify-self-end text-center font-medium ">
             Figma  

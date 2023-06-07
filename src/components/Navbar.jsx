@@ -9,39 +9,30 @@ export default function Navbar() {
 
   return (
     /* Navbar */
-    <nav className="w-full text-xl font-medium">
+    <nav className="text-xl font-medium">
       {/* Navbar container */}
       <div className="container mx-auto flex items-center justify-end py-6 md:py-9 px-8">
-        
-        {/*  Logo img
-        <div>
-          <h1 className="text-xl font-semibold
-            md:text-2xl">
-          </h1>
-        </div> */}
-        
         {/* Menu items - desktop */}
-        <div className="hidden md:flex space-x-16 text-lg md:text-xl">
+        <div className="hidden lg:flex space-x-16 text-lg md:text-xl">
           <a href="#about" className="hover:text-yellow-500 drop-shadow-sm">O mně</a>
           <a href="#projects" className="hover:text-yellow-500 drop-shadow-sm">Projekty</a>
           <a href="#contacts" className="hover:text-yellow-500 drop-shadow-sm">Kontakty</a>        
         </div>
-
         {/* Hamburger icon */}
-        <button id="menu-btn" onClick={handleClick}
+        <button id="menu-btn" 
+          onClick={handleClick}
           className="hamburger
-          md:hidden focus:outline-none">
+            lg:hidden focus:outline-none">
           <span className="hamburger-top"></span>
           <span className="hamburger-middle"></span>
           <span className="hamburger-bottom"></span>
         </button>
-
       </div>
 
-      {/* Mobile menu */}
-      <div className="md:hidden">
+      {/* Mobile + tablet menu */}
+      <div className="lg:hidden">
         <div id="menu" className={`${!mobileMenuOpen && 'hidden'} absolute flex flex-col gap-4 items-center self-end py-8 font-bold rounded-sm
-         bg-neutral-200 text-neutral-900 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
+         bg-neutral-200 text-neutral-900 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md mx-auto`}>
           <a href="#about">O mně</a>            
             <span className="w-4/5 mx-auto border border-solid border-b-1 border-gray-300 drop-shadow-sm"></span>
           <a href="#projects">Projekty</a>

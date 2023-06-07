@@ -574,6 +574,11 @@ video {
   top: 1.5rem;
 }
 
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -595,8 +600,16 @@ video {
   margin-left: auto;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .mt-16 {
   margin-top: 4rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .mt-4 {
@@ -609,6 +622,10 @@ video {
 
 .mt-auto {
   margin-top: auto;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .block {
@@ -925,8 +942,9 @@ video {
      object-fit: cover;
 }
 
-.p-10 {
-  padding: 2.5rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-3 {
@@ -972,11 +990,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .pb-1 {
@@ -1236,8 +1249,8 @@ section, nav {
 
 .hamburger {
   cursor: pointer;
-  width: 24px;
-  height: 16px;
+  width: 40px;
+  height: 20px;
   transition: all 0.25s;
   position: relative;
 }
@@ -1246,17 +1259,17 @@ section, nav {
   position: absolute;
   top: 0;
   left: 0;
-  width: 24px;
-  height: 2px;
+  width: 40px;
+  height: 3px;
   background-color: #f5f5f5;
 }
 
 .hamburger-middle {
-  transform: translateY(7px);
+  transform: translateY(9px);
 }
 
 .hamburger-bottom {
-  transform: translateY(14px);
+  transform: translateY(18px);
 }
 
 /* Code snippet test */
@@ -1287,7 +1300,7 @@ body::before {
 
 /* Blobs */
 
-.blob-cont {
+.blob-container {
   position: relative;
   top: -450px;
   right: 0px;
@@ -1414,16 +1427,16 @@ body::before {
   }
 
   .blob {
-    filter: blur(50px);
+    filter: blur(75px);
   }
 
-  .blob-cont {
-    top: -200px;
-    right: 50px;
+  .blob-container {
+    top: -250px;
+    right: 75px;
   }
 
   .blob-1, .blob-3, .blob-2 {
-    height: 50px;
+    height: 100px;
     width: 150px;
   }
 
@@ -1432,13 +1445,13 @@ body::before {
     left: 50px;
   }
 
+  .blob-2 {
+    top: 150px;
+  }
+
   .blob-3 {
     top: 40px;
     right: -10px;
-  }
-
-  .blob-2 {
-    top: 150px;
   }
 
   @keyframes blob-1 {
@@ -1520,6 +1533,35 @@ body::before {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .blob-container {
+    top: -200px;
+  }
+
+  .blob-1, .blob-3, .blob-2 {
+    height: 50px;
+    width: 100px;
+  }
+
+  .hamburger {
+    width: 24px;
+    height: 12px;
+  }
+
+  .hamburger span {
+    width: 24px;
+    height: 2px;
+  }
+
+  .hamburger-middle {
+    transform: translateY(7px);
+  }
+
+  .hamburger-bottom {
+    transform: translateY(14px);
+  }
+}
+
 .placeholder\:italic::-moz-placeholder {
   font-style: italic;
 }
@@ -1590,6 +1632,21 @@ body::before {
 }
 
 @media (min-width: 768px) {
+  .md\:my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .md\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .md\:mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
   .md\:mb-3 {
     margin-bottom: 0.75rem;
   }
@@ -1610,6 +1667,10 @@ body::before {
     margin-top: 3rem;
   }
 
+  .md\:mt-24 {
+    margin-top: 6rem;
+  }
+
   .md\:mt-3 {
     margin-top: 0.75rem;
   }
@@ -1618,12 +1679,16 @@ body::before {
     margin-top: 1.5rem;
   }
 
-  .md\:block {
-    display: block;
+  .md\:mb-2 {
+    margin-bottom: 0.5rem;
   }
 
-  .md\:flex {
-    display: flex;
+  .md\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:hidden {
@@ -1676,6 +1741,14 @@ body::before {
 
   .md\:w-8 {
     width: 2rem;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-3\/4 {
+    width: 75%;
   }
 
   .md\:flex-row {
@@ -1780,9 +1853,22 @@ body::before {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 976px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:w-4\/5 {
     width: 80%;
   }
@@ -1791,7 +1877,16 @@ body::before {
     width: 20rem;
   }
 
+  .lg\:w-3\/5 {
+    width: 60%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
