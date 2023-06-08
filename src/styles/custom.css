@@ -16,7 +16,7 @@ section, nav {
 
 .hamburger {
     cursor: pointer;
-    width: 40px;
+    width: 36px;
     height: 20px;
     transition: all 0.25s;
     position: relative;
@@ -26,7 +26,7 @@ section, nav {
     position: absolute;
     top: 0;
     left: 0;
-    width: 40px;
+    width: 36px;
     height: 3px;
     background-color: #f5f5f5;
   }

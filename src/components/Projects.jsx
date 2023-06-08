@@ -4,7 +4,7 @@ import ProjectCardSm from "./ProjectCardSm"
 export default function Projects() {
   return (
     /* Projects */
-    <section id="projects" className="mt-12 md:mt-24 px-8 md:px-16">
+    <section id="projects" className="mt-12 md:mt-12 px-8 md:px-16">
       {/* Projects container */}
       <div className="container mx-auto">
         {/* Large projects heading + description */}
@@ -16,7 +16,7 @@ export default function Projects() {
           Zde sdílím dva mé největší fullstack projekty, které nejvíce odráží moje aktuální schopnosti.
         </p>
         {/* Large projects cards container */}
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 mb-12">
           {/* Lynxes project card */}
           <ProjectCardLg 
             name={'Lynxes'}
