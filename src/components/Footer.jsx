@@ -2,7 +2,7 @@
 export default function Footer() {
   return (
     /* Footer */
-    <footer className="w-full text-neutral-100 bg-neutral-800 px-8">
+    <footer className="w-full text-neutral-100 bg-neutral-800 px-8 md:px-16">
       {/* Footer container */}
       <div className="flex items-center justify-between py-4 md:py-6">
         {/* Copyright */}

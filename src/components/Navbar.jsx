@@ -11,7 +11,7 @@ export default function Navbar() {
     /* Navbar */
     <nav className="text-xl font-medium">
       {/* Navbar container */}
-      <div className="container mx-auto flex items-center justify-end py-6 md:py-9 px-8">
+      <div className="container mx-auto flex items-center justify-end py-6 md:py-9 px-8 md:px-16">
         {/* Menu items - desktop */}
         <div className="hidden lg:flex space-x-16 text-lg md:text-xl">
           <a href="#about" className="hover:text-yellow-500 drop-shadow-sm">O mně</a>

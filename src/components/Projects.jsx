@@ -4,7 +4,7 @@ import ProjectCardSm from "./ProjectCardSm"
 export default function Projects() {
   return (
     /* Projects */
-    <section id="projects" className="mt-12 md:mt-24 mx-8">
+    <section id="projects" className="mt-12 md:mt-24 px-8 md:px-16">
       {/* Projects container */}
       <div className="container mx-auto">
         {/* Large projects heading + description */}
@@ -43,8 +43,8 @@ export default function Projects() {
           Scrimba solo projects
         </h3>
         <p className="md:w-4/5 lg:w-3/5 text-justify mb-6 text-neutral-200">
-        V rámci kurzu Scrimba Frontend Career Path jsem měl příležitost pracovat na řadě samostatných projektů. 
-        Obdržel jsem design ve Figmě, který jsem si upravil a přidal celou řadu vlastních prvků a rozšířil požadovanou funkcionalitu.
+          V rámci kurzu Scrimba Frontend Career Path jsem měl příležitost pracovat na řadě samostatných projektů. 
+          Obdržel jsem design ve Figmě, který jsem si upravil a přidal celou řadu vlastních prvků a rozšířil požadovanou funkcionalitu.
         </p>
         {/* Scrimba projects cards container */}
         <div className="flex flex-col lg:flex-row gap-6 md:gap-8">
