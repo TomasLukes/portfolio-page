@@ -32,7 +32,7 @@ export default function Navbar() {
       {/* Mobile + tablet menu */}
       <div className="lg:hidden">
         <div id="menu" className={`${!mobileMenuOpen && 'hidden'} absolute flex flex-col gap-4 items-center self-end py-8 font-bold rounded-lg
-         bg-neutral-200 text-neutral-900 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md mx-auto`}>
+         bg-neutral-200 text-neutral-900 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md mx-auto md:mx-8`}>
           <a href="#about">O mně</a>            
             <span className="w-4/5 mx-auto border border-solid border-b-1 border-gray-300 drop-shadow-sm"></span>
           <a href="#projects">Projekty</a>

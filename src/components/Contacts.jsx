@@ -5,7 +5,7 @@ export default function Contacts() {
 
   if (state.succeeded) {
     return (
-      <div className="container mx-auto pt-12 md:pt-24 pb-16 md:pb-32 px-8 md:px-16">
+      <div className="container mx-auto mt-12 md:mt-28 mb-16 md:mb-32 px-8 md:px-16">
         <p className="mx-auto w-fit text-xl md:text-2xl border-solid border-l-8 pl-2 border-yellow-500" >
           Děkuji za zprávu. Brzy se ozvu.
         </p>
@@ -16,7 +16,7 @@ export default function Contacts() {
 
   return (
     /* Contacts */
-    <section id="contacts" className="pt-12 md:pt-24 pb-16 md:pb-32 px-8 md:px-16" >
+    <section id="contacts" className="mt-12 md:mt-24 mb-16 md:mb-32 px-8 md:px-16" >
       {/* Contacts container */}
       <div className="container mx-auto">
       <h2 className="w-fit mx-auto text-2xl md:text-4xl font-bold mb-3 md:mb-9 border-solid border-l-8 pl-2 border-yellow-500">

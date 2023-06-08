@@ -24,7 +24,7 @@ export default function Bio() {
           <p>Možný nástup:</p>
           <p className="font-medium">srpen/2023</p>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col col-span-2">
           <p>Anglický jazyk:</p>
           <p className="font-medium">Pokročilý, včetně technikých termínů</p>
         </div>

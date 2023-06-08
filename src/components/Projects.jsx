@@ -11,12 +11,12 @@ export default function Projects() {
         <h2 className="text-2xl md:text-4xl font-bold mb-3 md:mb-6 border-solid border-l-8 pl-2 border-yellow-500">
           Projekty
         </h2>
-        <p className="md:w-4/5 lg:w-3/5 text-justify mb-6 md:mb-12 text-neutral-200">
+        <p className="md:w-4/5 lg:w-3/5 text-left md:text-justify mb-6 md:mb-12 text-neutral-200">
           Během studia technologií potřebných pro web development, jsem se učil převážně pomocí vývoje vlastních projektů.
           Zde sdílím dva mé největší fullstack projekty, které nejvíce odráží moje aktuální schopnosti.
         </p>
         {/* Large projects cards container */}
-        <div className="flex flex-col gap-8 mb-12">
+        <div className="flex flex-col gap-8 mb-20">
           {/* Lynxes project card */}
           <ProjectCardLg 
             name={'Lynxes'}
@@ -39,10 +39,10 @@ export default function Projects() {
           />
         </div>
         {/* Scrimba projects heading + description */}
-        <h3 className="text-xl md:text-2xl font-semibold mt-6 md:mt-12 mb-3 md:mb-6 border-solid border-l-8 pl-2 border-yellow-500">
+        <h3 className="text-xl md:text-2xl font-semibold mb-3 md:mb-6 border-solid border-l-8 pl-2 border-yellow-500">
           Scrimba solo projects
         </h3>
-        <p className="md:w-4/5 lg:w-3/5 text-justify mb-6 text-neutral-200">
+        <p className="md:w-4/5 lg:w-3/5 text-justify mb-6 md:mb-12 text-neutral-200">
           V rámci kurzu Scrimba Frontend Career Path jsem měl příležitost pracovat na řadě samostatných projektů. 
           Obdržel jsem design ve Figmě, který jsem si upravil a přidal celou řadu vlastních prvků a rozšířil požadovanou funkcionalitu.
         </p>
