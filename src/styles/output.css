@@ -587,8 +587,12 @@ video {
   margin-bottom: 0.25rem;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .mb-3 {
@@ -629,14 +633,6 @@ video {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .block {
@@ -689,10 +685,6 @@ video {
 
 .w-28 {
   width: 7rem;
-}
-
-.w-32 {
-  width: 8rem;
 }
 
 .w-4 {
@@ -957,11 +949,6 @@ video {
      object-fit: cover;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1007,10 +994,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.pb-16 {
-  padding-bottom: 4rem;
-}
-
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -1041,10 +1024,6 @@ video {
 
 .pr-3 {
   padding-right: 0.75rem;
-}
-
-.pt-12 {
-  padding-top: 3rem;
 }
 
 .pt-5 {
@@ -1266,18 +1245,22 @@ section, nav {
 .hamburger {
   cursor: pointer;
   width: 36px;
-  height: 20px;
+  height: 36px;
   transition: all 0.25s;
   position: relative;
 }
 
-.hamburger span {
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
   position: absolute;
   top: 0;
   left: 0;
   width: 36px;
   height: 3px;
-  background-color: #f5f5f5;
+  background: #f5f5f5;
+  transform: rotate(0);
+  transition: all 0.5s;
 }
 
 .hamburger-middle {
@@ -1286,6 +1269,23 @@ section, nav {
 
 .hamburger-bottom {
   transform: translateY(18px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
 /* Code snippet test */
@@ -1653,19 +1653,14 @@ body::before {
 }
 
 @media (min-width: 768px) {
-  .md\:my-4 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .md\:mx-16 {
-    margin-left: 4rem;
-    margin-right: 4rem;
-  }
-
   .md\:mx-8 {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+
+  .md\:my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .md\:mb-12 {
@@ -1678,6 +1673,10 @@ body::before {
 
   .md\:mb-3 {
     margin-bottom: 0.75rem;
+  }
+
+  .md\:mb-32 {
+    margin-bottom: 8rem;
   }
 
   .md\:mb-6 {
@@ -1700,20 +1699,16 @@ body::before {
     margin-top: 6rem;
   }
 
+  .md\:mt-28 {
+    margin-top: 7rem;
+  }
+
   .md\:mt-3 {
     margin-top: 0.75rem;
   }
 
   .md\:mt-6 {
     margin-top: 1.5rem;
-  }
-
-  .md\:mt-28 {
-    margin-top: 7rem;
-  }
-
-  .md\:mb-32 {
-    margin-bottom: 8rem;
   }
 
   .md\:block {
@@ -1730,14 +1725,6 @@ body::before {
 
   .md\:h-7 {
     height: 1.75rem;
-  }
-
-  .md\:w-1\/3 {
-    width: 33.333333%;
-  }
-
-  .md\:w-2\/3 {
-    width: 66.666667%;
   }
 
   .md\:w-2\/5 {
@@ -1770,10 +1757,6 @@ body::before {
 
   .md\:w-8 {
     width: 2rem;
-  }
-
-  .md\:w-1\/2 {
-    width: 50%;
   }
 
   .md\:flex-row {
@@ -1809,6 +1792,11 @@ body::before {
     border-top-left-radius: 0.5rem;
   }
 
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .md\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -1824,35 +1812,22 @@ body::before {
     padding-bottom: 1.5rem;
   }
 
-  .md\:py-9 {
-    padding-top: 2.25rem;
-    padding-bottom: 2.25rem;
-  }
-
-  .md\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
   .md\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .md\:py-9 {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
   }
 
   .md\:pb-12 {
     padding-bottom: 3rem;
   }
 
-  .md\:pb-32 {
-    padding-bottom: 8rem;
-  }
-
   .md\:pb-4 {
     padding-bottom: 1rem;
-  }
-
-  .md\:pt-24 {
-    padding-top: 6rem;
   }
 
   .md\:text-justify {
@@ -1899,6 +1874,14 @@ body::before {
     display: none;
   }
 
+  .lg\:w-1\/3 {
+    width: 33.333333%;
+  }
+
+  .lg\:w-2\/3 {
+    width: 66.666667%;
+  }
+
   .lg\:w-3\/5 {
     width: 60%;
   }
@@ -1909,14 +1892,6 @@ body::before {
 
   .lg\:w-80 {
     width: 20rem;
-  }
-
-  .lg\:w-1\/3 {
-    width: 33.333333%;
-  }
-
-  .lg\:w-2\/3 {
-    width: 66.666667%;
   }
 
   .lg\:flex-row {

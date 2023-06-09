@@ -19,10 +19,11 @@ export default function Navbar() {
           <a href="#contacts" className="hover:text-yellow-500 drop-shadow-sm">Kontakty</a>        
         </div>
         {/* Hamburger icon */}
-        <button id="menu-btn" 
+        <button 
+          id="menu-btn" 
           onClick={handleClick}
-          className="hamburger
-            lg:hidden focus:outline-none">
+          className={`${mobileMenuOpen ? 'open' : ''} block hamburger lg:hidden focus:outline-none`}
+        >
           <span className="hamburger-top"></span>
           <span className="hamburger-middle"></span>
           <span className="hamburger-bottom"></span>
