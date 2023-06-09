@@ -1551,17 +1551,22 @@ body::before {
 
 @media only screen and (max-width: 600px) {
   .blob-container {
-    top: -200px;
+    top: -150px;
+    right: 50px;
   }
 
   .blob-1, .blob-3, .blob-2 {
     height: 50px;
-    width: 100px;
+    width: 75px;
+  }
+
+  .blob {
+    filter: blur(50px);
   }
 
   .hamburger {
     width: 24px;
-    height: 12px;
+    height: 24px;
   }
 
   .hamburger span {
