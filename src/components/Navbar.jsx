@@ -20,7 +20,7 @@ export default function Navbar() {
         </div>
         {/* Hamburger icon */}
         <button 
-          id="menu-btn" 
+          id="menu-btn" aria-label="Mobile hamburger icon" 
           onClick={handleClick}
           className={`${mobileMenuOpen ? 'open' : ''} block hamburger lg:hidden focus:outline-none`}
         >

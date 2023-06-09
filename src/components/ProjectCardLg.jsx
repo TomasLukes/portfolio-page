@@ -6,12 +6,12 @@ export default function ProjectCardLg({ name, description, imgHorizontal, imgVer
       {/* Left item */}
       <div className="flex flex-col md:w-2/5">
         {/* Screenshot image */}
-        <a href={`${url}`} className="hidden md:block flex-grow h-60">
+        <a href={`${url}`} aria-label={`See live page of ${name}`} className="hidden md:block flex-grow h-60">
           <img className="w-full rounded-tl-lg rounded-bl-lg"
             src={`/assets/images/projects-screenshots/${imgVertical}`} alt="" 
           />
         </a>
-        <a href={`${url}`} className="md:hidden flex-grow">
+        <a href={`${url}`} aria-label={`See page code of ${name}`} className="md:hidden flex-grow">
           <img className="rounded-t-lg md:rounded-tl-lg md:rounded-r-none"
             src={`/assets/images/projects-screenshots/${imgHorizontal}`} alt="" 
           />
@@ -23,9 +23,9 @@ export default function ProjectCardLg({ name, description, imgHorizontal, imgVer
         <div className="flex-grow">
           {/* Headline */}
           <div className="flex mb-4">
-            <h5 className="text-2xl font-bold tracking-tight text-neutral-100 ">
+            <h4 className="text-2xl font-bold tracking-tight text-neutral-100 ">
               {name}
-            </h5>
+            </h4>
             <div className="flex items-center gap-1 md:gap-2 ml-auto">
               {/* Next.js icon */}
               <svg className="h-6 w-6" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -64,7 +64,7 @@ export default function ProjectCardLg({ name, description, imgHorizontal, imgVer
         {/* Link buttons */}
         <div className="flex gap-4 mx-auto mt-auto">
           {/* GitHub button */}
-          <a href={`${ghUrl}`} className="flex items-center px-3 py-2 text-sm rounded-lg font-medium border border-1 border-neutral-300
+          <a href={`${ghUrl}`} aria-label={`See ${name} code at Github`} className="flex items-center px-3 py-2 text-sm rounded-lg font-medium border border-1 border-neutral-300
           text-neutral-200 hover:border-yellow-500"
           >
             Code
@@ -73,7 +73,7 @@ export default function ProjectCardLg({ name, description, imgHorizontal, imgVer
             </svg>
           </a>
           {/* Live demo button */}
-          <a href={`${url}`} className="flex items-center px-3 py-2 text-sm rounded-lg font-medium border border-1 border-neutral-300
+          <a href={`${url}`} aria-label={`See live page of ${name}`} className="flex items-center px-3 py-2 text-sm rounded-lg font-medium border border-1 border-neutral-300
           text-neutral-200 hover:border-yellow-500"
           >
             Live
