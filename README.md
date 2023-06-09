@@ -49,10 +49,9 @@ Mobile
 
 
 ## Future Improvements
-- ✅ The design and code are mostly completed.
-- 👷 Some projects and information still need to be added.
-- 👷 The page needs to be tested and refined for different displays.
+- ✅ The design and code are completed, accesiblity and resposivity fully implemented.
+- 👷 Update project and other information throught my job hunt.
 
 ## Last update:
 
-- 06/06/2023 - First rough version is done, now I will add some missing info and polish design after testing.
+- 09/06/2023 - Project is finished for now, but it will be updated in future.

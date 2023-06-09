@@ -30,7 +30,7 @@ export default function Timeline() {
       <li className="pl-8 pb-8 relative">
       <img src="/assets/images/icons/jobs/CT.png" 
           className="absolute left-[-2px] w-8 h-8 bg-neutral-100 rounded-full transform -translate-x-1/2" alt="" />
-        <h5 className="text-xl font-semibold">Technik zvukové techniky</h5>
+        <h5 className="text-xl font-semibold">Technik zvukovu</h5>
         <div className="pb-2">
           <span>Česká televize</span><span> • </span><span>09/2014-06/2018</span>
         </div>

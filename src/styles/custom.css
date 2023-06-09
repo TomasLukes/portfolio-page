@@ -210,7 +210,7 @@ section, nav {
 
   @media only screen and (max-width: 600px) {
     .blob-container {
-      top: -150px;
+      top: -175px;
       right: 50px;
     }
   

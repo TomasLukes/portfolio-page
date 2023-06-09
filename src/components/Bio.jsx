@@ -26,7 +26,7 @@ export default function Bio() {
         </div>
         <div className="flex flex-col col-span-2">
           <p>Anglický jazyk:</p>
-          <p className="font-medium">Pokročilý, včetně technikých termínů</p>
+          <p className="font-medium">Pokročilý, včetně technických termínů</p>
         </div>
       </div>
     </div> 
