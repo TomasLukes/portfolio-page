@@ -116,14 +116,14 @@ export default function TechStack() {
           </div>
         </li>     
 
-        {/* Git badge */}
+        {/* Firebase badge */}
         <li className="w-28 md:w-36 px-5 py-2 rounded-3xl border border-1 border-neutral-700">
           <div className="mx-auto flex items-center justify-center gap-2">
-            {/* Git img icon */}
-            <img className="h-5 w-5 md:w-7 md:h-7" src="/assets/images/icons/tech/git-colored.svg" alt="Git icon" />
-            {/* Git label */}
+            {/* Firebase img icon */}
+            <img className="h-5 w-5 md:w-7 md:h-7" src="/assets/images/icons/tech/firebase-colored.svg" alt="Firebase icon" />
+            {/* Firebase label */}
             <label className=" justify-self-end text-center font-medium ">
-            Git
+            Firebase
             </label>
           </div>
         </li>
