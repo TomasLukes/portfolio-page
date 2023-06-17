@@ -2,23 +2,22 @@
 export default function ProjectCardLg({ name, description, imgHorizontal, imgVertical, url, ghUrl, CSS }) {
   return (
     /* ProjectCard large container */
-    <article className="flex flex-col md:flex-row md:w-4/5 lg:w-3/5 overflow-hidden bg-neutral-900 border border-gray-700 rounded-lg shadow-md">
+    <article className="flex flex-col md:flex-row md:w-4/5 lg:w-3/5 lg:h-72 overflow-hidden bg-neutral-900 border border-gray-700 rounded-lg shadow-md">
       {/* Left item */}
-      <div className="flex flex-col md:w-2/5">
+      <div className="flex flex-col md:w-3/5 lg:w-2/5">
         {/* Screenshot image */}
-        <a href={`${url}`} aria-label={`See live page of ${name}`} className="hidden md:block flex-grow h-60">
-          <img className="w-full rounded-tl-lg rounded-bl-lg"
-            src={`/assets/images/projects-screenshots/${imgVertical}`} alt="" 
-          />
-        </a>
-        <a href={`${url}`} aria-label={`See page code of ${name}`} className="md:hidden flex-grow">
-          <img className="rounded-t-lg md:rounded-tl-lg md:rounded-r-none"
-            src={`/assets/images/projects-screenshots/${imgHorizontal}`} alt="" 
-          />
+        <a href={`${url}`} aria-label={`See live page of ${name}`} className="flex-grow">
+          <picture>
+              <source media="(max-width: 767px)" srcSet={`/assets/images/projects-screenshots/${imgHorizontal}`} />
+              <source media="(min-width: 768px)" srcSet={`/assets/images/projects-screenshots/${imgVertical}`} />
+              <img 
+                src={`/assets/images/projects-screenshots/${imgVertical}`} alt={`Ukázka stránky projektu ${name}`} 
+              />
+            </picture>
         </a>
       </div>   
       {/* Project info container */}
-      <div className="flex flex-col md:w-4/5 lg:3/5 py-6 md:py-8 px-8 md:px-10">
+      <div className="flex flex-col md:w-4/5 lg:3/5 py-6 md:py-8 px-6 md:px-8 lg:px-10">
         {/* Title and description container */}
         <div className="flex-grow">
           {/* Headline */}
