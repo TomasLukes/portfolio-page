@@ -26,7 +26,7 @@ export default function Contacts() {
           {/* Inputs group */}
           <div className="flex flex-row gap-2 md:gap-4">
             {/* Name input */}
-            <input type='text' name="name" placeholder="Jméno" className="placeholder:italic placeholder:text-slate-400 block
+            <input type='text' name="name" placeholder="Jméno" required className="placeholder:italic placeholder:text-slate-400 block
              bg-neutral-50 w-full rounded-md py-2 pl-3 pr-3 shadow-sm border-2 border-gray-300
              focus:outline-none focus:border-yellow-500 focus:ring-yellow-500 focus:ring-1 sm:text-sm" 
             />
@@ -36,7 +36,7 @@ export default function Contacts() {
             errors={state.errors}
             />
             {/* Email input */}
-            <input type='email' name="email" placeholder="E-mail" className="placeholder:italic placeholder:text-slate-400 block
+            <input type='email' name="email" placeholder="E-mail" required className="placeholder:italic placeholder:text-slate-400 block
              bg-neutral-50 w-full rounded-md py-2 pl-3 pr-3 shadow-sm border-2 border-gray-300
              focus:outline-none focus:border-yellow-500 focus:ring-yellow-500 focus:ring-1 sm:text-sm" 
             />
