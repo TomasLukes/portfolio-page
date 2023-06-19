@@ -21,7 +21,7 @@ section, nav {
 .hamburger {
   cursor: pointer;
   width: 36px;
-  height: 36px;
+  height: 24px;
   transition: all 0.25s;
   position: relative;
 }
@@ -229,7 +229,7 @@ section, nav {
 
     .hamburger {
       width: 24px;
-      height: 24px;
+      height: 18px;
     }
     
     .hamburger span {

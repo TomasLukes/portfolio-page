@@ -937,6 +937,22 @@ video {
      object-fit: cover;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1020,10 +1036,6 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
 }
 
 .pt-8 {
@@ -1245,7 +1257,7 @@ section, nav {
 .hamburger {
   cursor: pointer;
   width: 36px;
-  height: 36px;
+  height: 24px;
   transition: all 0.25s;
   position: relative;
 }
@@ -1566,7 +1578,7 @@ body::before {
 
   .hamburger {
     width: 24px;
-    height: 24px;
+    height: 18px;
   }
 
   .hamburger span {
@@ -1786,6 +1798,10 @@ body::before {
 
   .md\:whitespace-normal {
     white-space: normal;
+  }
+
+  .md\:p-6 {
+    padding: 1.5rem;
   }
 
   .md\:px-16 {

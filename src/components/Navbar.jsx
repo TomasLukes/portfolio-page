@@ -18,15 +18,19 @@ export default function Navbar() {
           <a href="#projects" className="hover:text-yellow-500 drop-shadow-sm">Projekty</a>
           <a href="#contacts" className="hover:text-yellow-500 drop-shadow-sm">Kontakty</a>        
         </div>
-        {/* Hamburger icon */}
         <button 
           id="menu-btn" aria-label="Mobile hamburger icon" 
-          onClick={handleClick}
-          className={`${mobileMenuOpen ? 'open' : ''} block hamburger lg:hidden focus:outline-none`}
-        >
-          <span className="hamburger-top"></span>
-          <span className="hamburger-middle"></span>
-          <span className="hamburger-bottom"></span>
+          type="button"
+          className="flex items-center p-3 md:p-6"
+          onClick={handleClick}>
+          {/* Hamburger icon */}
+          <div 
+            className={`${mobileMenuOpen ? 'open' : ''} block hamburger lg:hidden focus:outline-none`}
+          >
+            <span className="hamburger-top"></span>
+            <span className="hamburger-middle"></span>
+            <span className="hamburger-bottom"></span>
+          </div>
         </button>
       </div>
 
