@@ -4,7 +4,7 @@ export default function ProjectCardSm({ name, description, img, url, ghUrl }) {
     /* ProjectCard small container */
     <article className="flex flex-col max-w-sm bg-neutral-800 border border-gray-700 rounded-lg shadow-md">
       {/* Screenshot image */}
-      <a href={`${url}`} aria-label={`See live page of ${name}`}>
+      <a href={`${url}`} rel="noreferrer" target="_blank" aria-label={`See live page of ${name}`}>
         <img className="rounded-t-lg"
           src={`/assets/images/projects-screenshots/${img}`} alt="" 
         />
@@ -23,7 +23,7 @@ export default function ProjectCardSm({ name, description, img, url, ghUrl }) {
       {/* Link buttons */}
       <div className="flex gap-4 px-8 pb-5">
         {/* GitHub button */}
-        <a href={`${ghUrl}`} aria-label={`See ${name} code at Github`} className="flex items-center px-3 py-2 text-sm rounded-lg font-medium border border-1 border-neutral-300
+        <a href={`${ghUrl}`} rel="noreferrer" target="_blank" aria-label={`See ${name} code at Github`} className="flex items-center px-3 py-2 text-sm rounded-lg font-medium border border-1 border-neutral-300
          text-neutral-200 hover:border-yellow-500"
         >
           Code
@@ -32,7 +32,7 @@ export default function ProjectCardSm({ name, description, img, url, ghUrl }) {
           </svg>
         </a>
         {/* Live demo button */}
-        <a href={`${url}`} aria-label={`See live page of ${name}`} className="flex items-center px-3 py-2 text-sm rounded-lg font-medium border border-1 border-neutral-300
+        <a href={`${url}`} rel="noreferrer" target="_blank" aria-label={`See live page of ${name}`} className="flex items-center px-3 py-2 text-sm rounded-lg font-medium border border-1 border-neutral-300
          text-neutral-200 hover:border-yellow-500"
         >
           Live

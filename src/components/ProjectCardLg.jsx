@@ -6,7 +6,7 @@ export default function ProjectCardLg({ name, description, imgHorizontal, imgVer
       {/* Left item */}
       <div className="flex flex-col md:w-3/5 lg:w-2/5">
         {/* Screenshot image */}
-        <a href={`${url}`} aria-label={`See live page of ${name}`} className="flex-grow">
+        <a href={`${url}`} rel="noreferrer" target="_blank" aria-label={`See live page of ${name}`} className="flex-grow">
           <picture>
               <source media="(max-width: 767px)" srcSet={`/assets/images/projects-screenshots/${imgHorizontal}`} />
               <source media="(min-width: 768px)" srcSet={`/assets/images/projects-screenshots/${imgVertical}`} />
@@ -67,7 +67,7 @@ export default function ProjectCardLg({ name, description, imgHorizontal, imgVer
         {/* Link buttons */}
         <div className="flex gap-4 mx-auto mt-auto">
           {/* GitHub button */}
-          <a href={`${ghUrl}`} aria-label={`See ${name} code at Github`} className="flex items-center px-3 py-2 text-sm rounded-lg font-medium border border-1 border-neutral-300
+          <a href={`${ghUrl}`} rel="noreferrer" target="_blank" aria-label={`See ${name} code at Github`} className="flex items-center px-3 py-2 text-sm rounded-lg font-medium border border-1 border-neutral-300
           text-neutral-200 hover:border-yellow-500"
           >
             Code
@@ -76,7 +76,7 @@ export default function ProjectCardLg({ name, description, imgHorizontal, imgVer
             </svg>
           </a>
           {/* Live demo button */}
-          <a href={`${url}`} aria-label={`See live page of ${name}`} className="flex items-center px-3 py-2 text-sm rounded-lg font-medium border border-1 border-neutral-300
+          <a href={`${url}`} rel="noreferrer" target="_blank" aria-label={`See live page of ${name}`} className="flex items-center px-3 py-2 text-sm rounded-lg font-medium border border-1 border-neutral-300
           text-neutral-200 hover:border-yellow-500"
           >
             Live
