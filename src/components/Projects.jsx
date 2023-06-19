@@ -34,7 +34,7 @@ export default function Projects() {
             description={'Další projekt, na kterém budu pracovat. Půjde o applikaci, kam si mohou uživatele ukládat své faktury a dále je spravovat.'}
             imgHorizontal={'innovoicer-horizontal.jpg'}
             imgVertical={'innovoicer-vertical.jpg'}
-            url={'https://innovoicer.tomaslukes.com/'}
+            url={'https://github.com/TomasLukes/innovoicer'}
             ghUrl={'https://github.com/TomasLukes/innovoicer'}
           />
         </div>
