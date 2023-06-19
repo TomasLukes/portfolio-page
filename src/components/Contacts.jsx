@@ -5,7 +5,7 @@ export default function Contacts() {
 
   if (state.succeeded) {
     return (
-      <div className="container mx-auto mt-12 md:mt-28 mb-16 md:mb-32 px-8 md:px-16">
+      <div className="container mx-auto mt-12 md:mt-28 mb-16 md:mb-32 pt-8 px-8 md:px-16">
         <p className="mx-auto w-fit text-xl md:text-2xl border-solid border-l-8 pl-2 border-yellow-500" >
           Děkuji za zprávu. Brzy se ozvu.
         </p>

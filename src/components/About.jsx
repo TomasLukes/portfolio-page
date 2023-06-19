@@ -4,7 +4,7 @@ import Bio from "./Bio"
 export default function About() {
   return (
     /* About section */
-    <section id="about" className="mt-16 md:mt-28 px-8 md:px-16">
+    <section id="about" className="mt-16 md:mt-28 pt-8 px-8 md:px-16">
       {/* About container */}
       <div className="container flex flex-col md:flex-row mx-auto">
         <div className="md:w-3/5 lg:w-2/3">

@@ -4,7 +4,7 @@ import ProjectCardSm from "./ProjectCardSm"
 export default function Projects() {
   return (
     /* Projects */
-    <section id="projects" className="mt-12 md:mt-12 px-8 md:px-16">
+    <section id="projects" className="mt-12 md:mt-12 pt-8 px-8 md:px-16">
       {/* Projects container */}
       <div className="container mx-auto">
         {/* Large projects heading + description */}
