@@ -44,7 +44,7 @@ export default function Timeline() {
           className="absolute left-[-2px] w-8 h-8 bg-neutral-100 rounded-full transform -translate-x-1/2" alt="" />
         <h5 className="text-xl font-semibold">Audiovizuální technika</h5>
         <div className="pb-2">
-          <span>SPŠST Panská</span><span> • </span><span>09/2019-06/2013</span>
+          <span>SPŠST Panská</span><span> • </span><span>09/2009-06/2013</span>
         </div>
         <p className="text-sm">
           Středoškolské vzdělání technického směru s maturitou, zaměřeno na audiovizuální techniku.
