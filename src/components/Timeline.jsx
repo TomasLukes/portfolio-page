@@ -32,7 +32,7 @@ export default function Timeline() {
           className="absolute left-[-2px] w-8 h-8 bg-neutral-100 rounded-full transform -translate-x-1/2" alt="" />
         <h5 className="text-xl font-semibold">Technik zvuku</h5>
         <div className="pb-2">
-          <span>Česká televize</span><span> • </span><span>09/2014-06/2018</span>
+          <span>Česká televize</span><span> • </span><span>09/2013-06/2018</span>
         </div>
         <p className="text-sm">
           Správa a obsluha zvukových zařízení (HW / SW), spolupráce na dodání požadovaného technického řešení pro daný projekt.
