@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/assets/images/profile-photo.jpg" alt="Project Logo" style="width:100px; border-radius:50%" />
+  <img src="public/assets/images/profile-photo-rounded.jpg" alt="Project Logo" />
 </p>
 
 # Portfolio page
