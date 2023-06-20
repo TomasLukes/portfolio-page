@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/assets/images/profile-photo-rounded.png" width='150' height='150' alt="Project Logo" />
+  <img src="public/assets/images/profile-photo.jpg" alt="Project Logo" style="width:100px; border-radius:50%" />
 </p>
 
 # Portfolio page
@@ -54,4 +54,4 @@ Mobile
 
 ## Last update:
 
-- 20/06/2023 - Made some minor changes to improved UX, after getting users feedback.
+- 09/06/2023 - Project is finished for now, but it will be updated in future.
