@@ -16,7 +16,7 @@ export default function About() {
             V současné době se učím Next.js a Typescript při práci na nejnovějším projektu.
           </p>
           <p className="md:w-3/5 text-neutral-200 pb-8 md:pb-12">
-            Umím všechno? Zdaleka ne. Ale mám za sebou více než 10 let na různých technických pozicích a pokud hledáte posilu do svého týmu s potenciálem rychlého růstu a schopnosti 
+            Umím všechno? Zdaleka ne. Ale mám za sebou více než 10 let na různých technických pozicích a pokud hledáte posilu do svého týmu s potenciálem rychlého růstu a schopností 
             neustále se učit, neváhejte mě kontaktovat.
           </p>
           <Bio />
